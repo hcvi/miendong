@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'contact_controler/index', as: 'contact'
+
+  get 'blog_controler/index', as: 'blog'
+
+  get 'services_controler/index', as: 'services'
+
+  get 'about_controler/index', as: 'about'
+
   root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
