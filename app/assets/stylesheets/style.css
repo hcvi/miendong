@@ -11,7 +11,7 @@ body {
 	font-size:14px;
 	font-weight:300;
 	line-height:1.6em;
-	color:#fff;
+	
 	background-color:#fff;
 	overflow-x:hidden;
 }
@@ -1162,4 +1162,13 @@ a.scrollup:hover{
 	opacity:1;
 	background-color:#ddd;
 	color:#1BBD36;
+}
+label.control-label{
+  color:  #504545;
+}
+
+.form-group .form-control {
+    padding: 7px 12px;
+    border-color: #ccc;
+    box-shadow: none;
 }

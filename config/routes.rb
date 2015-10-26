@@ -1,12 +1,18 @@
 Rails.application.routes.draw do
-  get 'contact_controler/index', as: 'contact'
+  namespace :admin do
+    resources :companies
+    resources :services
+    resources :contacts
+    resources :blogs
+  end
 
-  get 'blog_controler/index', as: 'blog'
+  get '/contacts' => "contacts#index", as: 'contact'
 
-  get 'services_controler/index', as: 'services'
+  get '/blogs' => "blogs#index", as: 'blog'
 
-  get 'about_controler/index', as: 'about'
+  get '/services' => "services#index", as: 'services'
 
+  get '/about' => "about#index", as: 'about'
   root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

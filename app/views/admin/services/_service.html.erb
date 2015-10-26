@@ -1,0 +1,13 @@
+<tr id="service-<%= service.id %>">
+  <td>
+    <%= service.name %>
+  </td>
+  <td>
+    <%= link_to 'Edit', edit_admin_service_path(service.id),
+      class: 'btn btn-success' %>
+    <%= link_to 'Delete', admin_service_path(service.id), method: :delete,
+      remote: true,
+      class: 'btn btn-danger',
+      data: {confirm: "Are you sure?"} %>
+  </td>
+</tr>

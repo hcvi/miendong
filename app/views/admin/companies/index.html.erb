@@ -1,0 +1,32 @@
+
+<div class="container" style="margin-top: 100px">
+  <%= flash_messages %>
+  <div class="row">
+    <%= render 'shared/admin_menu' %>
+    <div class="col-sm-8">
+      <%= semantic_form_for @company,
+        url: @company.new_record? ? admin_companies_path : admin_company_path(@company),
+        remote: true,
+        :html => { :class => 'form-horizontal' } do |f| %>
+        <%= f.semantic_errors %> 
+        <%= f.inputs do %>
+          <%= f.input :name, :input_html => {class: ''} %>
+          <%= f.input :address, :input_html => {class: ''} %>
+          <%= f.input :longitude, :input_html => {class: ''} %>
+          <%= f.input :latitude, :input_html => {class: ''} %>
+          <%= f.input :mobile_phone, :input_html => {class: ''} %>
+          <%= f.input :home_phone, :input_html => {class: ''} %>
+          <%= f.input :work_phone, :input_html => {class: ''} %>
+          <%= f.input :email, :input_html => {class: ''} %>
+          <%= f.input :ceo, :input_html => {class: ''} %>
+          <%= f.input :tax_code, :input_html => {class: ''} %>
+        <% end %>
+        <%= f.actions do %>
+          <%= f.action :submit, wrapper_html: { class: 'btn btn-success' } %>
+          <%= f.action :cancel, :as => :link %>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+  <div style="height: 50px;"></div>
+</div>

@@ -36,14 +36,25 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'pg'
+#gem 'formtastic', '~> 3.0'
+gem 'formtastic-bootstrap'
 gem 'bootstrap-sass'
 
-group :development do
-  gem 'sqlite3'
+group :development, :test do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'bullet'
+  gem 'ruby-growl'
+  gem 'quiet_assets'
+  gem 'rubocop', require: false
+  gem 'rails_best_practices', require: false
+  gem 'byebug', '~> 5.0.0'
+  gem 'pry-rails'
+  gem 'annotate'
 end
 
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
   gem 'puma'
 end

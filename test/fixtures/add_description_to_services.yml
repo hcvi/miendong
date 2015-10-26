@@ -1,22 +1,20 @@
 # == Schema Information
 #
-# Table name: services
+# Table name: add_description_to_services
 #
 #  id          :integer          not null, primary key
-#  name        :string(255)
-#  parent_id   :integer
-#  created_at  :datetime
-#  updated_at  :datetime
 #  description :text
 #  sub_service :text
+#  created_at  :datetime
+#  updated_at  :datetime
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  parent_id: 1
+  description: MyText
+  sub_service: MyText
 
 two:
-  name: MyString
-  parent_id: 1
+  description: MyText
+  sub_service: MyText
