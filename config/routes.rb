@@ -6,7 +6,7 @@ Rails.application.routes.draw do
     resources :blogs
   end
 
-  get '/contacts' => "contacts#index", as: 'contact'
+  get '/contact' => "contact#index", as: 'contact'
 
   get '/blogs' => "blogs#index", as: 'blog'
 

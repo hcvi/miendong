@@ -1,0 +1,153 @@
+
+---
+services:
+  columns:
+  - id
+  - name
+  - parent_id
+  - created_at
+  - updated_at
+  - description
+  - sub_service
+  - image_url
+  - icon
+  records: 
+  - - '1'
+    - Thi công xây dựng và lắp đặt hoàn chỉnh công trình
+    - 
+    - '2015-10-24 16:26:29.600336'
+    - '2015-11-01 15:26:01.727725'
+    - ''
+    - "- Dân dụng và công nghiệp\r\n- Hạ tẩng đô thị, giao thông, cấp thoát nước,
+      thủy lợi"
+    - https://lh3.googleusercontent.com/-k0AC7St9bYcfNejIYL1Dpt3amSlqAoR0w-vBF5XRix_kS3Yov4ZC54icYDQTFAXiX3PYHZv-5dC1NddkxxjYeUciO8zWOgAJWTYodLbBzaRvu-PslStG_ZdDbIgIjnChu0Sw6TS_pmUyaHhyGouqHYBYsE3i9J0ead-g_3OFBSzbymC0wN2V5ogdToWKlC5OWVptEpFW_JzF_RanulOgxyQAthmHvffNEMcoLh8WNBsIHtCncO9MR5YSL7YjC-1w8cnJHBC7osW4HKtvXpQyUYGBdQMdjvxWgZp16gHIDgnziGIt3slH-90_9bujPsX2GzSmJiCiW0pPWXFxI0HD2-CCfOSGUEzHXaWDgwmBz9DV-JrHMX-jHrj6wDdtEKuTxwXD5fSL8EEbgP7mMeYrbuIYf2vztQ2WOoavooUNsL8XZufj7kgCpITLZFKHf-vXWToD0pCXIayWBWNPAIDZuaAIuERzqnZQr0AasT0_GZtHwtBOjS7iqLHdj7Ive4roSud5npaRmYhPSm00qo6HL0-wang3rM5RHMrfSLFCA=w960-h639-no
+    - ''
+  - - '3'
+    - Thiết kế công trình dân dụng và công nghiệp
+    - 
+    - '2015-10-25 05:37:01.600901'
+    - '2015-11-01 15:18:12.958153'
+    - ''
+    - ''
+    - https://lh3.googleusercontent.com/EX3eB0ZOXkqVh6QgqpnxnhZm63n_gLWVgXQ3qKfoQ1WGLrn_fMMYie0asO0ZYUyU-EMvd8nRsVdvOhakFVrXZERfkQNT6JAi6HISWwQukktyZEA22khIVROog8nGJscIaXuRNxJjNGs2IBW-_hzhr-Lq8Uro7SgyJTOZ0lCybkqIpnzrUAqBPYZpDacvWwcj11OOzp4n3J27Za3tw03b4GAIPsZhm3-Z51mIIMhA7NY710Lt8BwYPLTyi2fEXQjjtUmvvJLxf-H5oOPzwJ1LGPlH8QsyPx5EShgT65dDJk5GGacQ9O9MNdpQOPFrU-dqNLU9ErGVdFiinlt3vg-yJ8g5hGP_krNlRZdjD2bkoZlAL0ZzS4lE61t2hTkPduSI3VLoB_iYxOJXn-vCLIk6_W5eeGGrMsYPexP0RwWCQ0c5FmmaEOilG_DrpevCFVZo_QKMJVeVa4wOPsvVOk-Op2yCTA03q-qRtzIeCuaUojywy4yZKVKh79g5rM47fsKHHhv2qaUAuBs4EHAFe2X-JcKvX7s17ahEFT6-IswKzw=w893-h657-no
+    - ''
+  - - '6'
+    - Tư vấn xây dựng
+    - 
+    - '2015-10-25 05:43:40.127543'
+    - '2015-11-01 15:19:38.14994'
+    - ''
+    - "- Quản lý dự án, thẩm tra thiết kế\r\n- Tư vấn đấu thầu, lập tổng dự toán,
+      quản lý chi phí\r\n- Giám sát thi công, khảo sát địa hình"
+    - https://lh3.googleusercontent.com/AbpR0P66sx2uBoCRXYrZTpL2crasOp7Cyp1TnVAY_3pNgOKzQx4t0raDmtrkwEAzpJ5OTxoo-9AxCE-Hb6-HJYucjMwJ0_TnbMbVnaXrh24_AVfetBt2fg_GS5mKiq3ECMIcbK7hkcs2uUdnZm0vURBggO5A4V1qzdgLEiq1W-1xyctJceLyqwaEjb7U6agY9Xzs97CZ9CZEjmQ13RzkMQoMrwwxq2VqyoJ_bY8ft1QDk4nb1xSB4LOdlRRewM5b7vJQ4B4H6DmGHdZJOKZDW4L4qF_pNuhmhFoTqEAWG9zZBtsupeEgzu9IfeDybRzvlsD5_XmMA7x-RZKUal3Okedeb2fUErMCGaQ1bE6QpKc_ngDHjW_1DH2TMhssKW7vIjYf8IzDA45O6B1-QdN91RBdcqgkC6ukWxEkOneXwFgm7z8wBkUXGvrvCuh5kHflh0nEWIvZpIVYIPBryvv025F_d-2wTue-Mx7wVN1MTB3J3pokhUPIELSVqhQe1buS3qcGMg49bGPhu_cWS-MLrRHQrlrizbef7giJIpN2mA=w876-h657-no
+    - ''
+  - - '7'
+    - Cung cấp thiết bị, vật liệu xây dựng
+    - 
+    - '2015-10-25 05:44:57.777174'
+    - '2015-11-01 15:20:42.029317'
+    - ''
+    - ''
+    - https://lh3.googleusercontent.com/WEARtKTHIYFxC-iWPe61ggOMz77liA7TCG2t039YEXE35J6xU1WNmqggnEOGzfvSCKeq71n2hj9-OMUmFuKJjIxJnFkYsJeivq_cXzHPtY6MwFQhYI-0SC48vUwJbmCFfRkdJ5EevJNvHf-B4o5FFBraZrS74mQ8XvfOf1COVqkXErf3p9MgsYN2WI_M_pO8fpIEhKoS0rfLW6Zak2TFPqWssKefS3jxmkS8_V_CXgZ8Frb8l9zh4yE58EAjtKExC5DcuzbJL5eSzRw9MP23duHdJg9B2QARF7rXKVAkqC-d0-52YkOLdDRERLjER7YU-XYAPJIKlIajrb1VnMqtkC0saaXC2mgw2kAdMDWfZiYB-WbXvNopgV4CfkAtOBeDbQqJxSjWc-c_yA5BbPvBKgFwFUvDTxMW5dIi6JMhQgWtoYqqJ6tVARAnlh6ZPAnVr__WOeFj9NHqVAL1PqRn0qiLGMw_No1xKCYifvBnM5B6WpgGcFJifE0VEGAQdcCHQ3xcErOV0PJH8g9Xnp3JOMCJNQXFE5E05ruqwynGDw=w1042-h657-no
+    - ''
+
+---
+companies:
+  columns:
+  - id
+  - name
+  - tax_code
+  - address
+  - home_phone
+  - mobile_phone
+  - work_phone
+  - email
+  - ceo
+  - created_at
+  - updated_at
+  - longitude
+  - latitude
+  - background_url
+  - logo
+  - image_url
+  - about_us_title_en
+  - about_us_title_vn
+  - about_us_content_vn
+  - about_us_content_en
+  - facebook
+  - google_plus
+  - twiter
+  - youtube
+  - linkedin
+  - partners
+  - image_title_en
+  - image_title_vn
+  - image_description_en
+  - image_description_vn
+  records: 
+  - - '1'
+    - CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MIỀN ĐÔNG VÀ TÂY NGUYÊN
+    - 0313302383
+    - 62/1 hẻm 159 đường 11,  KP9, Trường Thọ, Thủ Đức, TP.HCM
+    - ''
+    - 0979006996
+    - 0932702446
+    - miendongtaynguyen@gmail.com
+    - Lê Minh Tần
+    - '2015-10-24 05:58:21.491086'
+    - '2015-11-01 13:32:06.710594'
+    - '106.7516693'
+    - '11.8441854'
+    - https://lh5.googleusercontent.com/J2wJB8ynEAzTqeMCBq-JE2EdFoO9lWqyz3epk6_P3_y9tfjC98rGAV2VE9M6of-g2G0FFzQjsXHX_sXAIcMujc5qdyafQpTNZftdSRPXbwzQ4MbINdL-1FBcmiC_CUvq0WKZIkWINFLA-IADok2H72s2WWHr6DkrRYbpgQa4zdYFNjLX8hjVTYxfsyUmjt-ghfb-XA1lRte8_jgVqHnhrXpD3y1Tr7zjdJCKgPE9kc7FfMDzmrmH648xBz12ljGm3HimINndglT0Cte4APltF38PtYXVgzk_UVRCqkLNZtOGb0FqNgCotqA97VNC0CFXXMF9kfShmN1e193AoxpSO4vPETrhJ_mw7ajVh_HdijokW6qIx4rFqs8FVQuE0ADYgjY-cSssC44iRZfoxPOrLMcUFKxHZkXazIJ7at2a_OS-vDEs7IswgX3XS7yxu3t4lEZDqCXYn5LEIx962RLHIT3SEDJ36lD0FJTjPQpRjVO-374NN8y3vB6mzJis-FOT7PvyI1B0mVcX-NPrwPOiG1zTm3g=s1042-w1042-h657-no
+    - "/images/logo.jpg"
+    - https://lh6.googleusercontent.com/twBX3yBaZvy2GpBxztRPuiePkA5pK5ywDJEJ39eBlQYQkmMUdC6wBf4xJL8LPrjZHdKI0eauE472c0yIaVzMGbXMvbo3knNzfh4CLB8itH1e8TEX3tEg9xgkE72pmQ3s33hiJstvKwo684jsdA_1sOwZMCthFluMVo962Z3EAp6OS0zRjcGWnfENzxkjAEVk7HRsVJDd0-fsvMd0nUAd3DxMOxfWza9sVe7b2R5bt108PIlnSdOr8jaQFeRPQfhBJxOCIq9bjL_3oUKKEXnIuWBFSXq-6yyhRsnsEq_qfOQ__ERLLOu4yvN7GGDz6GLI6zyvfkWqUjnLDAcAZEWUQQvuW00McHuH3PWoYRQ5XWVRBY1WSLKWs7V_jKh9eI8rpmoosHnLTPd1mwv_Xs9J4MelfCtZvuNEAXPAtE2J6rjlYaDWIr2Tj_JGSurZ9dTDGMncAKpXXE2z9yrpPu-zqqnBkerMk0CI4RqvcjGJYg6GpVJLlKEV7gMjXdNQhzDpUgAoAhrwd9nicUdG4XwvHjCncmw=s876-w876-h657-no
+    - About us
+    - Xay dung mien dong
+    - "Công ty Cổ phần Tư vấn Thiết kế Xây dựng Khánh Phát, tiền thân là Công ty TNHH
+      Tư vấn Thiết kế Xây dựng Khánh Phát, được thành lập ngày 29/11/2006 với đội
+      ngũ nòng cốt là các Thạc sỹ, Kỹ sư, Kiến trúc sư tốt nghiệp từ các trường đại
+      học chuyên ngành như Đại học Kiến trúc TP.HCM, Đại học Bách khoa TP.HCM, Đại
+      học Sư phạm kỹ thuật TP.HCM, Học viện Kỹ thuật Châu Á – ATI. Trong đó có một
+      số thành viên hiện đang là giảng viên chính tại các trường nói trên.\r\n\r\nNgay
+      từ ngày đầu thành lập, Công ty Khánh Phát đã xác định mục tiêu trở thành một
+      công ty tư vấn chuyên nghiệp trong lĩnh vực xây dựng. Vì vậy Công ty tập trung
+      phát triển các mảng chính như Tư vấn Quản lý dự án, Tư vấn Thiết kế, Tư vấn
+      Giám sát. Đến nay số lượng dự án Khánh Phát thực hiện đã lên đến con số hàng
+      trăm. Trong đó một số chủ đầu tư dự án đã tín nhiệm và trở thành khách hàng
+      của công ty trong nhiều năm liền như Tổng công ty Thương mại Xuất nhập khẩu
+      Thanh Lễ - TNHH MTV, Công ty TNHH Cơ khí – Xây dựng và Thương mại Tiên Tiến,
+      Công ty Cổ phần đầu tư phát triển nhà và đô thị số 9 HUD9, Công ty TNHH Thương
+      mại Xây dựng Lê Thành, Tổng công ty Du lịch Sài Gòn Saigon Tourist …\r\n"
+    - "Khanh Phat Contruction –Designing – Consultant joint stock company before is
+      the Khanh Phat Contruction –Designing – Consultant co.Ltd, established 29/11/2006
+      ,with a team of key masters, engineers, architects, skilled, professional, seasoned
+      experience come from specialized universities such as the  Ho Chi Minh City
+      University of architecture, Ho Chi Minh City University ò Technology, University
+      of Technical Education Ho Chi Minh City, the Asian Institute of technology-ATI.
+      Including a number of members currently is senior lecturer in the fields mentioned
+      above.\r\n\r\nSince inception,Khanh Phat Company has identified  goal of becoming
+      a professional consulting firm in the field of construction. So the company
+      focused on developing the main areas such as Project Management Consultant,
+      Consulting Design, Monitoring Consultant. To date the number of projects implemented
+      Khanh Phat has reached the hundreds. In such a project investor confidence and
+      become customers of the company for many years as the Corporation Import and
+      Export Trade Thanh Le –MTV co.Ltd, Engineering Co.Ltd – Tien Tien Construction
+      and Trade company, 9 HUD9 Development investments Housing and Urban  Joint Stock
+      Company, Le Thanh Trade and Construction Co.Ltd, Saigon Travel Corporation,
+      Saigon Tourist ...\r\n"
+    - https://www.facebook.com/
+    - 
+    - https://twitter.com/?lang=en
+    - https://www.youtube.com/
+    - https://www.linkedin.com/
+    - "{}"
+    - ''
+    - ''
+    - "Until 2011, the goal of growing the company to a new stature, more scale, more
+      professional, Board members and Board of Directors have decided to switch from
+      the LTD Company form up joint stock companies.\r\n\r\nWith experience and professionalism
+      in the work, the Khanh Phat company is always the right choice of the client.\r\n"
+    - "Until 2011, the goal of growing the company to a new stature, more scale, more
+      professional, Board members and Board of Directors have decided to switch from
+      the LTD Company form up joint stock companies.\r\n\r\nWith experience and professionalism
+      in the work, the Khanh Phat company is always the right choice of the client."

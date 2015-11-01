@@ -9,6 +9,8 @@
 #  updated_at  :datetime
 #  description :text
 #  sub_service :text
+#  image_url   :string(2083)     default("{}")
+#  icon        :string(255)
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html

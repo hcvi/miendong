@@ -29,7 +29,24 @@ class Admin::CompaniesController < ApplicationController
         :mobile_phone,
         :work_phone,
         :email,
-        :ceo)
+        :ceo,
+        :background_url,
+        :logo,
+        :image_url,
+        :image_title_en,
+        :image_title_vn,
+        :image_description_en,
+        :image_description_vn,
+        :about_us_title_en,
+        :about_us_title_vn,
+        :about_us_content_en,
+        :about_us_content_vn,
+        :facebook,
+        :gogole_plus,
+        :twiter,
+        :youtube,
+        :linkedin,
+        :partners)
   end
   def find_model
     @company = Company.find(params[:id])

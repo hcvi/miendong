@@ -3,12 +3,22 @@
       <div class="container">
         <div class="social-icon">
           <div class="col-md-4">
+
             <ul class="social-network">
-              <li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+              <li>
+                <%= link_to_if @company.facebook.present?, "<i class='fa fa-facebook'></i>".html_safe, @company.facebook, class: 'fb tool-tip', title: 'Facebook', target:  '_blank' %>
+              </li>
+              <li>
+                <%= link_to_if @company.twiter.present?, "<i class='fa fa-twitter'></i>".html_safe, @company.twiter, class: 'twitter tool-tip', title: 'Twitter', target:  '_blank' %>
+              </li>
+              <li>
+                <%= link_to_if @company.google_plus.present?, "<i class='fa fa-google-plus'></i>".html_safe, @company.google_plus, class: 'gplus tool-tip', title: 'Google Plus', target:  '_blank' %>
+              </li>
+              <li>
+                <%= link_to_if @company.linkedin.present?, "<i class='fa fa-linkedin'></i>".html_safe, @company.linkedin, class: 'linkedin tool-tip', title: 'Linkedin', target:  '_blank' %>
+              <li>
+                <%= link_to_if @company.youtube.present?, "<i class='fa fa-youtube-play'></i>".html_safe, @company.youtube, class: 'ytube tool-tip', title: 'YouTube', target:  '_blank' %>
+              </li>
             </ul>
           </div>
         </div>
@@ -17,11 +27,6 @@
           <div class="copyright">
             &copy; June  2015 by Miền Đông & Tây Nguyên</a>. All Rights Reserved.
           </div>
-                    <!--
-                        All links in the footer should remain intact.
-                        Licenseing information is available at: http://bootstraptaste.com/license/
-                        You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Company
-                    -->
         </div>
       </div>
 

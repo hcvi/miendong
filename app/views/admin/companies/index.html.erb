@@ -20,6 +20,23 @@
           <%= f.input :email, :input_html => {class: ''} %>
           <%= f.input :ceo, :input_html => {class: ''} %>
           <%= f.input :tax_code, :input_html => {class: ''} %>
+          <%= f.input :logo, :input_html => {class: ''} %>
+          <%= f.input :background_url, :input_html => {class: ''} %>
+          <%= f.input :image_url, :input_html => {class: ''} %>
+          <%= f.input :image_title_vn, :input_html => {class: ''} %>
+          <%= f.input :image_description_vn, :input_html => { :class => 'autogrow', :rows => 10, :cols => 20 } %>
+          <%= f.input :image_title_en, :input_html => {class: ''} %>
+          <%= f.input :image_description_en, :input_html => { :class => 'autogrow', :rows => 10, :cols => 20 } %>
+          <%= f.input :about_us_title_vn, :input_html => {class: ''} %>
+          <%= f.input :about_us_content_vn, :input_html => { :class => 'autogrow', :rows => 10, :cols => 20  } %>
+          <%= f.input :about_us_title_en, :input_html => {class: ''} %>
+          <%= f.input :about_us_content_en, :input_html => { :class => 'autogrow', :rows => 10, :cols => 20 } %>
+          <%= f.input :facebook, :input_html => {class: ''} %>
+          <%= f.input :google_plus, :input_html => {class: ''} %>
+          <%= f.input :twiter, :input_html => {class: ''} %>
+          <%= f.input :youtube, :input_html => {class: ''} %>
+          <%= f.input :linkedin, :input_html => {class: ''} %>
+          <%= f.input :partners, :input_html => {class: ''} %>
         <% end %>
         <%= f.actions do %>
           <%= f.action :submit, wrapper_html: { class: 'btn btn-success' } %>

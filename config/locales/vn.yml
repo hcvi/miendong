@@ -20,4 +20,12 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 vn:
-  hello: "Hello world"
+  menu:
+    home: Trang Chủ
+    about: Giới Thiệu
+    service: Dịch vụ  
+    blog: Blog
+    contact: Liên Lạc
+  message: 
+    contact: 'Nếu có thắc mắc, xin hãy liên lạc chúng tôi ?'
+    company_service: 'Dịch vụ'

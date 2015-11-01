@@ -3,7 +3,7 @@ class Admin::ServicesController < ApplicationController
   
   def index
     @service = Service.new
-    @services = Service.all
+    @services = Service.all.order('id ASC')
   end
 
   def edit
@@ -35,7 +35,9 @@ class Admin::ServicesController < ApplicationController
       .permit(
         :name,
         :sub_service,
-        :description)
+        :description,
+        :image_url,
+        :icon)
   end
 
   def find_model

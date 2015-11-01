@@ -26,3 +26,6 @@ en:
     service: Service
     blog: Blog
     contact: Contact
+  message: 
+    contact: 'Have a question or need a custom quote?'
+    company_service: 'Company Services'
