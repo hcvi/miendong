@@ -2,51 +2,58 @@
     <script src="http://maps.googleapis.com/maps/api/js"></script>
 <% end %>
 <script>
-    function initialize() {
-
-      var myLatLng = { lat: <%= @company.latitude %>, lng: <%= @company.longitude %>};
-      var mapProp = {
-        center:new google.maps.LatLng(myLatLng),
-        zoom: 14,
-        mapTypeId:google.maps.MapTypeId.ROADMAP
-      };
-      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-      var marker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        title: 'Hello World!'
-      });
-      var infowindow = new google.maps.InfoWindow();
-      infowindow.setContent("<p>CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MIỀN ĐÔNG VÀ TÂY NGUYÊN</p>");
-      infowindow.open(map, marker);
+  function initialize() {
+    if(document.getElementById("googleMap") === null){
+      return false;
     }
-    google.maps.event.addDomListener(window, 'load', initialize);
 
+    var myLatLng = { lat: <%= @company.latitude %>, lng: <%= @company.longitude %>};
+    var mapProp = {
+      center:new google.maps.LatLng(myLatLng),
+      zoom: 14,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    var marker = new google.maps.Marker({
+      position: myLatLng,
+      map: map,
+      title: 'Hello World!'
+    });
+    var infowindow = new google.maps.InfoWindow();
+    infowindow.setContent("<p>CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MIỀN ĐÔNG VÀ TÂY NGUYÊN<br/> 62/1 hẻm 159 đường 11, KP9, Trường Thọ, Thủ Đức, TP.HCM</p>");
+    infowindow.open(map, marker);
+  }
+  if(google){
+    google.maps.event.addDomListener(window, 'load', initialize)
+    google.maps.event.addDomListener(window, 'page:load', initialize) 
+  }
 
 </script>
-
-<div id="breadcrumb">
-    <div class="container">
-      <div class="breadcrumb">
-        <li><a href="index.html">Home</a></li>
-        <li>Contact</li>
+<section id="contact-page">
+  <div class="container">
+      <div class="row contact-wrap">
+        <div class="col-sm-5 col-sm-offset-1">
+          <h2><%= t('message.contact_title')%></h2>
+          <h3><%= t('message.contact_body') %></h3>
+          <p>Để liên hệ với chúng tôi, vui lòng nhập đầy đủ thông tin bên dưới.
+          Những trường có dấu (*) là bắt buộc phải nhập dữ liệu.</p>
+          <ul class="contact">
+            <li><i class="fa fa-map-marker"></i><span><%= @company.address %></span></li>
+            <li><i class="fa fa-envelope-o" style='font-size: 20px'></i></i> <span><%= @company.email %></span></li>
+            <% if @company.home_phone.present? %>
+              <li><i class="fa fa-phone-square"></i><span><%= @company.home_phone %></span> </li>
+            <% end %> 
+            <li><i class="fa fa-mobile"></i><span><%= @company.work_phone %> - <%= @company.mobile_phone %></span></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </div>
-
-  <div class="map">
+      <div class="row contact-wrap">
+        <div class="status alert alert-success" style="display: none"></div>
+        <%= render 'form' %>
+      </div><!--/.row-->
+  </div><!--/.container-->
+</section><!--/#contact-page-->
+<div class="map">
   <div id="googleMap" style="height:380px;"></div>
-  </div>
-
-  <section id="contact-page">
-        <div class="container">
-            <div class="center">
-                <h2><%= t('message.contact_title')%></h2>
-                <p><%= t('message.contact_body')%></p>
-            </div>
-            <div class="row contact-wrap">
-                <div class="status alert alert-success" style="display: none"></div>
-                <%= render 'form' %>
-            </div><!--/.row-->
-        </div><!--/.container-->
-  </section><!--/#contact-page-->
+</div>
+  

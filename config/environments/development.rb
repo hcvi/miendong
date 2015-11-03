@@ -37,4 +37,13 @@ Rails.application.configure do
   config.assets.debug = true
   config.sass.debug_info = true
   config.sass.line_comments = false
+  config.action_mailer.smtp_settings = {
+    :address              => "smtp.gmail.com",
+    :port                 => 587,
+    :domain               => "gmail.com",
+    :user_name            => "adxaydungmiendong@gmail.com",
+    :password             => "taynguyen@2015",
+    :authentication       => :plain,
+    :enable_starttls_auto => true
+  }
 end

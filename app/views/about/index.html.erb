@@ -1,67 +1,48 @@
-  <div id="breadcrumb">
-    <div class="container"> 
-      <div class="breadcrumb">              
-        <li><a href="index.html">Home</a></li>
-        <li>About Us</li>     
-      </div>    
-    </div>  
-  </div>
-  
   <div class="aboutus">
     <div class="container">
-      <h3>Our company information</h3>
+      <h3><%= t('about.company_name') %></h3>
+      <ul class="contact">
+        <li>
+          <i class="fa fa-map-marker"></i>
+          <span><%= @company.address %></span>
+        </li>
+        <li>
+          <i class="fa fa-envelope-o" style='font-size: 20px'></i></i> 
+          <span><%= @company.email %></span>
+        </li>
+        <% if @company.home_phone.present? %>
+          <li>
+            <i class="fa fa-phone-square"></i>
+            <span><%= @company.home_phone %></span>
+          </li>
+        <% end %> 
+        <li>
+          <i class="fa fa-mobile"></i>
+          <span><%= @company.work_phone %> - <%= @company.mobile_phone %></span>
+        </li>
+        <li>
+          <i class="fa fa-male"></i>
+          <span><%= @company.ceo %></span>
+        </li>
+        <li>
+          <i class="fa fa-credit-card"></i>
+          <span><%= @company.tax_code %></span>
+        </li>
+      </ul>
       <hr>
       <div class="col-md-7 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-        <img src="images/7.jpg" class="img-responsive">
-        <h4>We Create, Design and Make it Real</h4>
-        <p>Nam tempor velit sed turpis imperdiet vestibulum. In mattis leo ut sapien euismod id feugiat mauris euismod. 
-        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-        Phasellus id nulla risus, vel tincidunt turpis. Aliquam a nulla mi, placerat blandit eros. </p>
-        <p>In neque lectus, lobortis a varius a, hendrerit eget dolor. Fusce scelerisque, sem ut viverra sollicitudin, est turpis blandit lacus,
-        in pretium lectus sapien at est. 
-        Integer pretium ipsum sit amet dui feugiat vitae dapibus odio eleifend.</p>
+        <img src="<%= @company.image_url %>" class="img-responsive">
+        <h4><%= @company.about_us_title_vn %></h4>
+        <p><%= @company.about_us_content_vn %></p>
       </div>
       <div class="col-md-5 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
         <div class="skill">
-          <h2>Our Skills</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
+          <h2>Lĩnh vực hoạt động</h2>
+          <% @services.each  do |service|%>
           <div class="progress-wrap">
-            <h3>Graphic Design</h3>
-            <div class="progress">
-              <div class="progress-bar  color1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-              <span class="bar-width">85%</span>
-              </div>
-
-            </div>
+            <h4>- <%= service.name %></h4>
           </div>
-
-          <div class="progress-wrap">
-            <h4>HTML</h4>
-            <div class="progress">
-              <div class="progress-bar color2" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
-               <span class="bar-width">95%</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="progress-wrap">
-            <h4>CSS</h4>
-            <div class="progress">
-              <div class="progress-bar color3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-              <span class="bar-width">80%</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="progress-wrap">
-            <h4>Wordpress</h4>
-            <div class="progress">
-              <div class="progress-bar color4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-              <span class="bar-width">90%</span>
-              </div>
-            </div>
-          </div>
+          <% end %>
         </div>        
       </div>
     </div>
@@ -69,22 +50,12 @@
   
   <div class="our-team">
     <div class="container">
-      <h3>Our Team</h3> 
+      <h3><%= t('about.our_team') %></h3> 
       <div class="text-center">
         <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
           <img src="images/services/1.jpg" alt="" >
-          <h4>John Doe</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod tempor</p>
-        </div>
-        <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <img src="images/services/2.jpg" alt="" >
-          <h4>John Doe</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod tempor</p>
-        </div>
-        <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-          <img src="images/services/3.jpg" alt="" >
-          <h4>John Doe</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod tempor</p>
+          <h4>Le Minh Tan</h4>
+          <p>CEO</p>
         </div>
       </div>
     </div>

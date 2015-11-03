@@ -27,11 +27,16 @@ vn:
     blog: Blog
     contact: Liên Lạc
   message:
+    services: "Dịch vụ"
     contact: 'Nếu có thắc mắc, xin hãy liên lạc chúng tôi ?'
     company_service: 'Dịch vụ'
     partner_title: 'liên kết'
     partner_body: 'liên kết'
     product_title: 'CÔNG TRÌNH'
     contact_title: 'Thông tin liên hệ'
-    contact_body: ''
+    contact_body: 'CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MIỀN ĐÔNG VÀ TÂY NGUYÊN'
     contact_thanks: 'Chúng tôi đã nhận thông tin của bạn'
+  about:  
+    company_name: 'CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MIỀN ĐÔNG VÀ TÂY NGUYÊN'
+    title: ''
+    our_team: 'Đội ngũ nhân viên'

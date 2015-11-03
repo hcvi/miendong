@@ -1,12 +1,5 @@
 
 <%= render '/shared/main_slider' %>
-<div class="feature">
-    <div class="container">
-      <div class="text-center">
-        <%= render partial: 'shared/service', collection: @services %>
-      </div>
-    </div>
-</div>
 
 <div class="about">
   <div class="container">
@@ -23,6 +16,7 @@
     </div>
   </div>
 </div>
+<%= render partial: 'services' %>
 <%= render partial: 'products' %>
 <section id="conatcat-info">
       <div class="container">
