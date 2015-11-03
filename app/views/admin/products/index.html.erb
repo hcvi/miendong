@@ -3,22 +3,20 @@
   <div class="row">
     <%= render 'shared/admin_menu' %>
     <div class="col-sm-8">
+      <%= render 'form' %>
     </div>
   </div>
+
   <div class="row">
-    <table id="services" class="table table-hover">
+    <table id="products" class="table table-hover">
       <thead>
         <tr>
           <th>Name</th>
-          <th>Email</th>
-          <th>Phone</th>
-          <th>Company</th>
-          <th>Subject</th>
-          <th>Message</th>
+          <th>Action</th>
         </tr>
       </thead>
       <tbody>
-        <%=  render partial: 'contact', collection: @contacts %>
+        <%=  render partial: 'product', collection: @products %>
       </tbody>
     </table>
   <div style="height: 50px;"></div>

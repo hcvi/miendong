@@ -4,13 +4,16 @@ Rails.application.routes.draw do
     resources :services
     resources :contacts
     resources :blogs
+    resources :products
   end
 
   get '/contact' => "contact#index", as: 'contact'
-
+  post '/contact' => "contact#create"
   get '/blogs' => "blogs#index", as: 'blog'
 
   get '/services' => "services#index", as: 'services'
+
+  get '/products' => "products#index", as: 'products'
 
   get '/about' => "about#index", as: 'about'
   root 'home#index'

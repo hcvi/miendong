@@ -1,6 +1,6 @@
 class Admin::ServicesController < ApplicationController
   before_filter :find_model , only: [:update, :edit, :destroy]
-  
+
   def index
     @service = Service.new
     @services = Service.all.order('id ASC')

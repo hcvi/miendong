@@ -43,6 +43,7 @@ class Company < ActiveRecord::Base
   validates :longitude, presence: true
 
   has_many :images
+  has_many :products
   accepts_nested_attributes_for :images
 
   def image_thumb
@@ -61,9 +62,9 @@ class Company < ActiveRecord::Base
     end
   end
 
-  def phone 
-    str = [] 
-    str << mobile_phone 
+  def phone
+    str = []
+    str << mobile_phone
     str << home_phone
     str << work_phone
     str.compact.join(' or ')

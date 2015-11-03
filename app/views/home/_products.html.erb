@@ -1,0 +1,15 @@
+<div class="lates">
+  <div class="container">
+    <div class="text-center">
+      <h2><%= t('message.product_title') %></h2>
+    </div>
+    <%- @company.products.each do |product|-%>
+      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <%= image_tag product.image_url, class: 'img-responsive' %>
+        <h3><%= product.name %></h3>
+        <p><%= product.description %></p>
+      </div>
+    <% end %>
+
+  </div>
+</div>
