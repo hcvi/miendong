@@ -17,6 +17,7 @@ class ContactController < ApplicationController
         :name,
         :email,
         :company,
+        :address,
         :phone,
         :subject,
         :message

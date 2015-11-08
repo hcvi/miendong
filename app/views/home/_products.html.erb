@@ -1,7 +1,21 @@
 <div class="lates">
   <div class="container">
     <div class="text-left">
-      <h2><%= t('message.product_title') %></h2>
+      <h2><%= t('message.product_working') %></h2>
+    </div>
+    <%- @company.products.each do |product|-%>
+      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <%= image_tag product.image_url, class: 'img-responsive' %>
+        <h4 class="image-title"><%= product.name %></h4>
+      </div>
+    <% end %>
+  </div>
+</div>
+<hr/>
+<div class="lates">
+  <div class="container">
+    <div class="text-left">
+      <h2><%= t('message.product_complete') %></h2>
     </div>
     <%- @company.products.each do |product|-%>
       <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">

@@ -31,26 +31,39 @@
 </script>
 <section id="contact-page">
   <div class="container">
-      <div class="row contact-wrap">
-        <div class="col-sm-5 col-sm-offset-1">
-          <h2><%= t('message.contact_title')%></h2>
-          <h3><%= t('message.contact_body') %></h3>
-          <p>Để liên hệ với chúng tôi, vui lòng nhập đầy đủ thông tin bên dưới.
-          Những trường có dấu (*) là bắt buộc phải nhập dữ liệu.</p>
-          <ul class="contact">
-            <li><i class="fa fa-map-marker"></i><span><%= @company.address %></span></li>
-            <li><i class="fa fa-envelope-o" style='font-size: 20px'></i></i> <span><%= @company.email %></span></li>
-            <% if @company.home_phone.present? %>
-              <li><i class="fa fa-phone-square"></i><span><%= @company.home_phone %></span> </li>
-            <% end %> 
-            <li><i class="fa fa-mobile"></i><span><%= @company.work_phone %> - <%= @company.mobile_phone %></span></li>
-          </ul>
-        </div>
+    <div class="row contact-wrap">
+      <div class="col-sm-12 col-sm-offset-1">
+        <h2><%= t('message.contact_title')%>: </h2>
+        <h3><%= t('message.contact_body') %></h3>
+        <p><%= t('message.contact_note')%></p>
+        <ul class="contact">
+          <li>
+            <span class='color-blue'><%= t('models.company.tax_code') %>: </span>
+            <span><%= @company.tax_code %></span>
+          </li>
+          <li>
+            <span class='color-blue'><%= t('models.company.address') %>: </span>
+            <span><%= @company.address %></span>
+          </li>
+          <li>
+            <span class='color-blue'><%= t('models.company.email') %>: </span> 
+            <span><%= @company.email %></span>
+          </li>
+          <li>
+            <span class='color-blue'><%= t('models.company.phone') %>: </span>
+            <span><%= @company.phone %></span>
+          </li>
+          <li>
+            <span class='color-blue'><%= t('models.company.ceo') %>: </span>
+            <span><%= @company.ceo %></span>
+          </li>
+        </ul>
       </div>
-      <div class="row contact-wrap">
-        <div class="status alert alert-success" style="display: none"></div>
-        <%= render 'form' %>
-      </div><!--/.row-->
+    </div>
+    <div class="row contact-wrap">
+      <div class="status alert alert-success" style="display: none"></div>
+      <%= render 'form' %>
+    </div><!--/.row-->
   </div><!--/.container-->
 </section><!--/#contact-page-->
 <div class="map">

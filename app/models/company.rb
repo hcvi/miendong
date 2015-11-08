@@ -67,6 +67,6 @@ class Company < ActiveRecord::Base
     str << mobile_phone
     str << home_phone
     str << work_phone
-    str.compact.join(' or ')
+    str.reject{ |x| x.nil? || x.empty? }.join(' - ')
   end
 end

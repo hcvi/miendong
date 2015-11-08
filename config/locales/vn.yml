@@ -26,17 +26,78 @@ vn:
     service: Dịch vụ
     blog: Blog
     contact: Liên Lạc
+    products: Dự án
   message:
+    product_working: "NHỮNG CÔNG TRÌNH ĐANG THỰC HIỆN"
+    product_complete: "NHỮNG CÔNG TRÌNH HOÀN THÀNH"
     services: "Dịch vụ"
     contact: 'Nếu có thắc mắc, xin hãy liên lạc chúng tôi ?'
     company_service: 'Dịch vụ'
     partner_title: 'liên kết'
     partner_body: 'liên kết'
     product_title: 'CÔNG TRÌNH'
-    contact_title: 'Thông tin liên hệ'
+    contact_title: 'Liên hệ'
     contact_body: 'CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MIỀN ĐÔNG VÀ TÂY NGUYÊN'
     contact_thanks: 'Chúng tôi đã nhận thông tin của bạn'
+    contact_note: 'Để liên hệ với chúng tôi, vui lòng nhập đầy đủ thông tin bên dưới. Những trường có dấu (*) là bắt buộc phải nhập dữ liệu.'
   about:  
     company_name: 'CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MIỀN ĐÔNG VÀ TÂY NGUYÊN'
     title: ''
     our_team: 'Đội ngũ nhân viên'
+
+  formtastic:
+    titles:
+      post_details: "Post details"
+    labels:
+      company:
+        name: 'Ten cong ty'
+        address: 'Địa chỉ'
+        phone_number: 'Điện Thoại'
+        email: 'Email'
+        mobile_phone: 'Điện Thoại Di Dong' 
+        home_phone: 'Điện Thoại Ban' 
+        work_phone: 'Điện Thoại Cong Viec' 
+        Ceo: 'Giám đốc' 
+        background_url: 'Background'
+        image_url: 'Image'
+      contact:
+        name: 'Tên của bạn'
+        email: 'Địa chỉ email'
+        phone: 'Điện Thoại'
+        address: 'Địa chỉ'
+        company_name: 'Công ty'
+        subject: 'Tiêu đề tin nhắn '
+        message: 'Nội dung'
+
+    hints:
+      post:
+        title: "Choose a good title for your post."
+        body: "Write something inspiring here."
+    placeholders:
+      post:
+        title: "Title your post"
+        slug: "Leave blank for an automatically generated slug"
+      user:
+        email: "you@yours.com"
+    actions:
+      create: "Create my %{model}"
+      send: "Gửi "
+      update: "Save changes"
+      reset: "Reset form"
+      cancel: "Back"
+      dummie: "Launch!"
+
+  models: 
+    company:
+      name: 'Ten cong ty'
+      address: 'Địa chỉ'
+      phone_number: 'Điện Thoại'
+      email: 'Email'
+      mobile_phone: 'Điện Thoại Di Dong' 
+      home_phone: 'Điện Thoại Ban' 
+      work_phone: 'Điện Thoại Cong Viec'
+      tax_code: 'Mã số thuế'
+      ceo: 'Giám đốc' 
+      background_url: 'Background'
+      image_url: 'Image'
+

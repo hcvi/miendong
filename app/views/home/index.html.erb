@@ -16,24 +16,24 @@
     </div>
   </div>
 </div>
-<%= render partial: 'services' %>
 <%= render partial: 'products' %>
+<%= render partial: 'services' %>
 <section id="conatcat-info">
-      <div class="container">
-          <div class="row">
-              <div class="col-sm-8">
-                  <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                      <div class="pull-left">
-                          <a href="tel:<%= @company.mobile_phone %>"><i class="fa fa-phone"></i><a/>
-                      </div>
-                      <div class="media-body">
-                          <h2><%= t('message.contact') %></h2>
-                          <p>Hot Line: <%= @company.phone %></p>
-                      </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-8">
+              <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                  <div class="pull-left">
+                      <a href="tel:<%= @company.mobile_phone %>"><i class="fa fa-phone"></i><a/>
+                  </div>
+                  <div class="media-body">
+                      <h2><%= t('message.contact') %></h2>
+                      <p>Hot Line: <%= @company.phone %></p>
                   </div>
               </div>
           </div>
-      </div><!--/.container-->
+      </div>
+  </div><!--/.container-->
 </section><!--/#conatcat-info-->
 
 
