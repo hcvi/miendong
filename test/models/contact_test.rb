@@ -11,6 +11,7 @@
 #  message    :text
 #  created_at :datetime
 #  updated_at :datetime
+#  address    :string(255)
 #
 
 require 'test_helper'

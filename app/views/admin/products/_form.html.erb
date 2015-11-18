@@ -3,11 +3,29 @@
   remote: true,
   html: { :class => 'form-horizontal' } do |f| %>
   <%= f.semantic_errors %>
+  Images
+  <hr/>
+  <%= f.semantic_fields_for :images do |h| %>
+    <div id="panel_image_<%= h.index + 1 %>" class="panel panel-default">
+      <div class="panel-heading">Image <%= h.index + 1 %></div>
+      <div class="panel-body">
+        <%= h.input :title %>
+        <%= h.input :url_thumb %>
+        <%= h.input :url %>
+        <%= h.input :position %>
+      </div>
+    </div>
+
+  <% end %>
+  Information
+  <hr/>
   <%= f.inputs do %>
     <%= f.input :company_id, as: :hidden %>
     <%= f.input :name %>
+    <%= f.input :summary_description,  :input_html => { :class => 'autogrow', :rows => 5, :cols => 20} %>
     <%= f.input :description,  :input_html => { :class => 'autogrow', :rows => 10, :cols => 20} %>
-    <%= f.input :images, :input_html => { :class => 'autogrow', :rows => 5, :cols => 20} %>
+    <%= f.input :image_url %>
+    <%= f.input :status, as: :select, collection: Product.statuses.keys %>
     <%= f.input :service_id, as: :select, collection: @services_collections %>
   <% end %>
 

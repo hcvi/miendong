@@ -26,6 +26,12 @@ en:
     service: Service
     blog: Blog
     contact: Contact
+    products: Project
+    products_working: Working
+    products_complete: Completed
+    en: English
+    vn: Vietnamese
+
   message:
     contact: 'Have a question or need a custom quote?'
     company_service: 'Company Services'

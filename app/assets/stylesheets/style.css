@@ -525,7 +525,7 @@ a:hover {
 }
 
 .lates img {
-  border: 1px solid #ccc;   
+  border: 1px solid #ccc;
 }
 
 /* --- footer --- */
@@ -578,7 +578,7 @@ ul.social-network li a {
 }
 
 .copyright {
-  
+
 }
 
 .copyright a {
@@ -1292,4 +1292,10 @@ ul.contact li i {
 .well-sm {
     padding: 9px;
     border-radius: 3px;
+}
+
+.form-horizontal .panel .form-group{
+  margin-left: 0px;
+  margin-right: 0px;
+
 }

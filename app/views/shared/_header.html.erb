@@ -2,13 +2,13 @@
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="top-line">
     <div class="container">
-      <div class="row">                    
+      <div class="row">
         <div class="col-md-6">
         <p>
           <span>
             <i class="fa fa-phone"></i><%= @company.phone %>
           </span>
-          <span><i class="fa fa-envelope-o"></i><%= @company.email %></span>    
+          <span><i class="fa fa-envelope-o"></i><%= @company.email %></span>
         </p>
         </div>
 
@@ -41,21 +41,20 @@
                 <%= active_link_to t('menu.about'), about_path %>
               </li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <%= t('menu.products') %><span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>  
+                  <li>
+                    <%= active_link_to t('menu.products_working'), "#{products_path}?status=1" %>
+                  </li>
+                  <li>
+                    <%= active_link_to t('menu.products_complete'), "#{products_path}?stat
+                    =2" %>
+                  </li>
+                </ul>
               </li>
-              
+
 
               <li role="presentation">
-                <%= active_link_to t('menu.products'), products_path %>
               </li>
               <li role="presentation">
                 <%= active_link_to t('menu.service'), services_path %>
@@ -65,6 +64,22 @@
               </li>
               <li role="presentation">
                 <%= active_link_to t('menu.contact'), contact_path %>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= t("menu.#{I18n.locale}") %><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <% if I18n.locale != :vn %>
+                  <li>
+                    <%= link_to t('menu.vn'), current_url(locale: 'vn') %>
+                  </li>
+                  <% end %>
+
+                  <% if I18n.locale != :en %>
+                  <li>
+                    <%= link_to t('menu.en'), current_url(locale: 'en') %>
+                  </li>
+                  <% end %>
+                </ul>
               </li>
             </ul>
           </div>

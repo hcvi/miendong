@@ -27,6 +27,10 @@ vn:
     blog: Blog
     contact: Liên Lạc
     products: Dự án
+    products_working: ĐANG THỰC HIỆN
+    products_complete: HOÀN THÀNH
+    vn: Tieng Viet
+    en: Tieng Anh
   message:
     product_working: "NHỮNG CÔNG TRÌNH ĐANG THỰC HIỆN"
     product_complete: "NHỮNG CÔNG TRÌNH HOÀN THÀNH"
@@ -40,7 +44,7 @@ vn:
     contact_body: 'CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MIỀN ĐÔNG VÀ TÂY NGUYÊN'
     contact_thanks: 'Chúng tôi đã nhận thông tin của bạn'
     contact_note: 'Để liên hệ với chúng tôi, vui lòng nhập đầy đủ thông tin bên dưới. Những trường có dấu (*) là bắt buộc phải nhập dữ liệu.'
-  about:  
+  about:
     company_name: 'CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MIỀN ĐÔNG VÀ TÂY NGUYÊN'
     title: ''
     our_team: 'Đội ngũ nhân viên'
@@ -54,10 +58,10 @@ vn:
         address: 'Địa chỉ'
         phone_number: 'Điện Thoại'
         email: 'Email'
-        mobile_phone: 'Điện Thoại Di Dong' 
-        home_phone: 'Điện Thoại Ban' 
-        work_phone: 'Điện Thoại Cong Viec' 
-        Ceo: 'Giám đốc' 
+        mobile_phone: 'Điện Thoại Di Dong'
+        home_phone: 'Điện Thoại Ban'
+        work_phone: 'Điện Thoại Cong Viec'
+        Ceo: 'Giám đốc'
         background_url: 'Background'
         image_url: 'Image'
       contact:
@@ -87,17 +91,17 @@ vn:
       cancel: "Back"
       dummie: "Launch!"
 
-  models: 
+  models:
     company:
       name: 'Ten cong ty'
       address: 'Địa chỉ'
       phone_number: 'Điện Thoại'
       email: 'Email'
-      mobile_phone: 'Điện Thoại Di Dong' 
-      home_phone: 'Điện Thoại Ban' 
+      mobile_phone: 'Điện Thoại Di Dong'
+      home_phone: 'Điện Thoại Ban'
       work_phone: 'Điện Thoại Cong Viec'
       tax_code: 'Mã số thuế'
-      ceo: 'Giám đốc' 
+      ceo: 'Giám đốc'
       background_url: 'Background'
       image_url: 'Image'
 

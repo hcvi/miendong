@@ -50,6 +50,7 @@ gem 'exception_notification'
 gem 'exception_notification-rake', '~> 0.1.2'
 gem 'kaminari'
 gem 'yaml_db'
+gem 'globalize'
 group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller'

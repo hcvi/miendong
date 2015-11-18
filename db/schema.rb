@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151107163742) do
+ActiveRecord::Schema.define(version: 20151118164223) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -70,23 +70,55 @@ ActiveRecord::Schema.define(version: 20151107163742) do
     t.string   "address"
   end
 
+  create_table "image_translations", force: true do |t|
+    t.integer  "image_id",   null: false
+    t.string   "locale",     null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "title"
+  end
+
+  add_index "image_translations", ["image_id"], name: "index_image_translations_on_image_id", using: :btree
+  add_index "image_translations", ["locale"], name: "index_image_translations_on_locale", using: :btree
+
   create_table "images", force: true do |t|
     t.integer  "company_id"
     t.integer  "service_id"
     t.integer  "blog_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "url_thumb",  limit: 2083
+    t.string   "url",        limit: 2083
+    t.integer  "product_id"
+    t.string   "title"
+    t.string   "position"
   end
+
+  create_table "product_translations", force: true do |t|
+    t.integer  "product_id",          null: false
+    t.string   "locale",              null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "name"
+    t.text     "description"
+    t.text     "summary_description"
+  end
+
+  add_index "product_translations", ["locale"], name: "index_product_translations_on_locale", using: :btree
+  add_index "product_translations", ["product_id"], name: "index_product_translations_on_product_id", using: :btree
 
   create_table "products", force: true do |t|
     t.string   "name"
     t.text     "description"
-    t.text     "images"
     t.integer  "company_id"
     t.integer  "service_id"
     t.string   "service_name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "image_url",           limit: 2083
+    t.string   "status"
+    t.text     "summary_description"
+    t.string   "slug"
   end
 
   create_table "services", force: true do |t|

@@ -5,7 +5,9 @@ class Admin::ProductsController < ApplicationController
   def index
     @company = Company.first
     @product = Product.new(company_id: @company.id)
+    3.times { @product.images.build }
     @products = Product.all.order('id DESC')
+
   end
 
   def edit
@@ -37,7 +39,9 @@ class Admin::ProductsController < ApplicationController
       .permit(
         :name,
         :description,
-        :images,
+        :summary_description,
+        :image_url,
+        :status,
         :company_id,
         :service_id
       )
