@@ -160,7 +160,7 @@ a:hover {
   slider
 ============================ */
 #main-slider {
-  margin-top:40px;
+  margin-top:50px;
 }
 
 #main-slider {
@@ -535,6 +535,7 @@ a:hover {
 /* --- footer --- */
 .footer {
   background:#1BBD36;
+  margin-top: 50px;
 }
 
 ul.social-network {
@@ -1316,3 +1317,7 @@ ul.contact li i {
   .affix + .container-fluid {
       padding-top: 70px;
   }
+
+.img-responsive{
+  width: 100%;
+}

@@ -1,6 +1,6 @@
 class Admin::CompaniesController < ApplicationController
   before_filter :find_model , only: [:update]
-  
+
   def index
     @company = Company.first || Company.new
   end
@@ -33,14 +33,10 @@ class Admin::CompaniesController < ApplicationController
         :background_url,
         :logo,
         :image_url,
-        :image_title_en,
-        :image_title_vn,
-        :image_description_en,
-        :image_description_vn,
-        :about_us_title_en,
-        :about_us_title_vn,
-        :about_us_content_en,
-        :about_us_content_vn,
+        :image_title,
+        :image_description,
+        :about_us_title,
+        :about_us_content,
         :facebook,
         :gogole_plus,
         :twiter,

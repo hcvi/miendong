@@ -35,6 +35,7 @@ en:
   message:
     contact: 'Have a question or need a custom quote?'
     company_service: 'Company Services'
+    product_images: 'Product Images'
 
   formtastic:
     titles:

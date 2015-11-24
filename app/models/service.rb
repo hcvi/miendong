@@ -17,4 +17,5 @@ class Service < ActiveRecord::Base
   validates :name, presence: true
   has_many :images
   accepts_nested_attributes_for :images
+  translates :name, :description, :sub_service
 end

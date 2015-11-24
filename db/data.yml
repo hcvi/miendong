@@ -13,10 +13,10 @@ services:
   - icon
   records: 
   - - '1'
-    - Thi công xây dựng và lắp đặt hoàn chỉnh công trình
+    - EN Thi công xây dựng và lắp đặt hoàn chỉnh công trình
     - 
     - '2015-10-24 16:26:29.600336'
-    - '2015-11-03 18:28:55.143409'
+    - '2015-11-24 15:37:14.732083'
     - ''
     - "- Dân dụng và công nghiệp\r\n- Hạ tẩng đô thị, giao thông, cấp thoát nước,
       thủy lợi"
@@ -26,7 +26,7 @@ services:
     - Thiết kế công trình dân dụng và công nghiệp
     - 
     - '2015-10-25 05:37:01.600901'
-    - '2015-11-03 18:29:35.84754'
+    - '2015-11-24 15:36:54.909125'
     - ''
     - ''
     - http://netphoxinh.com/image/190/190/1/0/article/thumb/Dich-vu-Thiet-ke-noi-that.jpg
@@ -35,7 +35,7 @@ services:
     - Tư vấn xây dựng
     - 
     - '2015-10-25 05:43:40.127543'
-    - '2015-11-03 18:30:22.070165'
+    - '2015-11-24 15:36:54.918243'
     - ''
     - "- Quản lý dự án, thẩm tra thiết kế\r\n- Tư vấn đấu thầu, lập tổng dự toán,
       quản lý chi phí\r\n- Giám sát thi công, khảo sát địa hình"
@@ -45,10 +45,262 @@ services:
     - Cung cấp thiết bị, vật liệu xây dựng
     - 
     - '2015-10-25 05:44:57.777174'
-    - '2015-11-03 18:30:33.011048'
+    - '2015-11-24 15:36:54.924551'
     - ''
     - ''
     - http://netphoxinh.com/image/190/190/1/0/article/thumb/Dich-vu-Thiet-ke-kien-truc.jpg
+    - ''
+
+---
+images:
+  columns:
+  - id
+  - company_id
+  - service_id
+  - blog_id
+  - created_at
+  - updated_at
+  - url_thumb
+  - url
+  - product_id
+  - title
+  - position
+  records: 
+  - - '2'
+    - 
+    - 
+    - 
+    - '2015-11-21 05:01:31.05329'
+    - '2015-11-21 09:11:50.230977'
+    - http://netphoxinh.com/image/450/300/1/0/project/thumb/NP058_3.jpg
+    - http://netphoxinh.com/image/1200/550/0/3/project/banners/NP058_2.jpg
+    - '6'
+    - Title en
+    - top
+  - - '3'
+    - 
+    - 
+    - 
+    - '2015-11-21 05:05:49.097411'
+    - '2015-11-21 09:11:50.237261'
+    - http://netphoxinh.com/image/450/300/1/0/project/thumb/NP058_3.jpg
+    - http://netphoxinh.com/image/1200/550/0/3/project/banners/NP058_3.jpg
+    - '6'
+    - " Title 2 en"
+    - ''
+  - - '4'
+    - 
+    - 
+    - 
+    - '2015-11-21 09:14:08.363492'
+    - '2015-11-21 10:08:28.063716'
+    - https://farm1.static.flickr.com/674/23130463915_fd1967716b_s.jpg
+    - http://netphoxinh.com/image/1200/550/0/3/project/banners/NP058_6.jpg
+    - '5'
+    - nha pho
+    - ''
+  - - '5'
+    - 
+    - 
+    - 
+    - '2015-11-21 09:15:10.694139'
+    - '2015-11-21 10:08:37.257974'
+    - https://farm1.static.flickr.com/674/23130463915_fd1967716b_s.jpg
+    - http://netphoxinh.com/image/1200/550/0/3/project/banners/12179.jpg
+    - '4'
+    - nha xuong
+    - ''
+  - - '6'
+    - 
+    - 
+    - 
+    - '2015-11-21 09:17:01.761918'
+    - '2015-11-21 10:08:47.358158'
+    - https://farm1.static.flickr.com/674/23130463915_fd1967716b_s.jpg
+    - http://netphoxinh.com/image/1200/550/0/3/project/banners/2.jpg
+    - '3'
+    - noi that
+    - ''
+  - - '7'
+    - 
+    - 
+    - 
+    - '2015-11-21 09:17:50.845177'
+    - '2015-11-21 10:09:06.802981'
+    - https://farm1.static.flickr.com/674/23130463915_fd1967716b_s.jpg
+    - http://netphoxinh.com/image/1200/550/0/3/project/banners/NP058_8.jpg
+    - '2'
+    - ''
+    - ''
+  - - '8'
+    - 
+    - 
+    - 
+    - '2015-11-21 09:58:26.120661'
+    - '2015-11-21 10:09:16.379683'
+    - https://farm1.static.flickr.com/674/23130463915_fd1967716b_s.jpg
+    - http://netphoxinh.com/image/1200/550/0/3/project/banners/12179.jpg
+    - '1'
+    - " "
+    - ''
+  - - '9'
+    - 
+    - 
+    - 
+    - '2015-11-21 10:04:48.005529'
+    - '2015-11-21 10:04:48.009111'
+    - https://farm6.static.flickr.com/5631/22517669404_0df74f85fc_s.jpg
+    - http://netphoxinh.com/image/1200/550/0/3/project/banners/4.jpg
+    - '1'
+    - " "
+    - ''
+
+---
+image_translations:
+  columns:
+  - id
+  - image_id
+  - locale
+  - created_at
+  - updated_at
+  - title
+  records: 
+  - - '2'
+    - '2'
+    - vn
+    - '2015-11-21 05:01:31.122332'
+    - '2015-11-21 08:48:39.396914'
+    - Title vn
+  - - '3'
+    - '3'
+    - vn
+    - '2015-11-21 05:05:49.099132'
+    - '2015-11-21 08:48:39.406034'
+    - " Title 2 vn"
+  - - '4'
+    - '2'
+    - en
+    - '2015-11-21 09:11:50.224975'
+    - '2015-11-21 09:11:50.224975'
+    - Title en
+  - - '5'
+    - '3'
+    - en
+    - '2015-11-21 09:11:50.235164'
+    - '2015-11-21 09:11:50.235164'
+    - " Title 2 en"
+  - - '6'
+    - '4'
+    - vn
+    - '2015-11-21 09:14:08.365536'
+    - '2015-11-21 09:14:08.365536'
+    - nha pho
+  - - '7'
+    - '5'
+    - vn
+    - '2015-11-21 09:15:10.696292'
+    - '2015-11-21 09:15:32.35288'
+    - nha xuong
+  - - '8'
+    - '6'
+    - vn
+    - '2015-11-21 09:17:01.763682'
+    - '2015-11-21 09:17:01.763682'
+    - noi that
+  - - '9'
+    - '7'
+    - vn
+    - '2015-11-21 09:17:50.847128'
+    - '2015-11-21 09:17:50.847128'
+    - ''
+  - - '10'
+    - '8'
+    - vn
+    - '2015-11-21 09:58:26.123155'
+    - '2015-11-21 09:58:26.123155'
+    - " "
+  - - '11'
+    - '9'
+    - vn
+    - '2015-11-21 10:04:48.007173'
+    - '2015-11-21 10:04:48.007173'
+    - " "
+
+---
+product_translations:
+  columns:
+  - id
+  - product_id
+  - locale
+  - created_at
+  - updated_at
+  - name
+  - description
+  - summary_description
+  records: 
+  - - '1'
+    - '1'
+    - vn
+    - '2015-11-18 16:39:45.061391'
+    - '2015-11-21 09:18:38.811482'
+    - NHÀ PHỐ
+    - ''
+    - ''
+  - - '2'
+    - '2'
+    - vn
+    - '2015-11-18 16:39:45.109135'
+    - '2015-11-21 09:17:50.840673'
+    - BIỆT THỰ HIỆN ĐẠI
+    - ''
+    - ''
+  - - '3'
+    - '3'
+    - vn
+    - '2015-11-18 16:39:45.113805'
+    - '2015-11-21 09:17:01.757536'
+    - NỘI THẤT
+    - ''
+    - ''
+  - - '4'
+    - '4'
+    - vn
+    - '2015-11-18 16:39:45.118152'
+    - '2015-11-21 09:15:10.689867'
+    - NHÀ XƯỞNG
+    - ''
+    - ''
+  - - '5'
+    - '5'
+    - vn
+    - '2015-11-18 16:39:45.122642'
+    - '2015-11-21 09:14:08.35897'
+    - CÔNG TRÌNH KHÁC
+    - ''
+    - ''
+  - - '6'
+    - '6'
+    - vn
+    - '2015-11-18 16:39:45.127019'
+    - '2015-11-24 15:58:51.056054'
+    - VN CÔNG TRÌNH ĐANG THỰC HIỆN
+    - "VN MẪU NHÀ PHỐ HIỆN ĐẠI\r\ntest \r\n"
+    - "VN MẪU NHÀ PHỐ HIỆN ĐẠI -\r\ntest"
+  - - '7'
+    - '6'
+    - en
+    - '2015-11-18 17:41:58.895949'
+    - '2015-11-18 17:43:43.331423'
+    - EN CÔNG TRÌNH ĐANG THỰC HIỆN
+    - EN MẪU NHÀ PHỐ HIỆN ĐẠI -
+    - EN MẪU NHÀ PHỐ HIỆN ĐẠI -
+  - - '8'
+    - '1'
+    - en
+    - '2015-11-21 09:43:28.058'
+    - '2015-11-21 09:43:28.058'
+    - City home
+    - ''
     - ''
 
 ---
@@ -57,67 +309,164 @@ products:
   - id
   - name
   - description
-  - images
   - company_id
   - service_id
   - service_name
   - created_at
   - updated_at
+  - image_url
+  - summary_description
+  - status
+  - slug
   records: 
   - - '1'
-    - NHÀ PHỐ
+    - City home
     - ''
-    - http://netphoxinh.com/image/450/300/1/0/project/category/38647.jpg
     - '1'
     - '3'
     - 
     - '2015-11-03 17:20:47.709039'
-    - '2015-11-03 17:20:47.709039'
+    - '2015-11-21 10:09:16.375705'
+    - http://netphoxinh.com/image/450/300/1/0/project/thumb/29005.jpg
+    - ''
+    - '1'
+    - nha-pho
   - - '2'
     - BIỆT THỰ HIỆN ĐẠI
     - ''
-    - http://netphoxinh.com/image/450/300/1/0/project/category/best-architects-in-the-world-with-nice-pool-and-big-design.jpg
     - '1'
     - '6'
     - 
     - '2015-11-03 17:21:18.782642'
-    - '2015-11-03 17:21:18.782642'
+    - '2015-11-21 10:09:06.798232'
+    - http://netphoxinh.com/image/450/300/1/0/project/thumb/nha-biet-thu-pho-hien-dai-11-1431585981_660x0.jpg
+    - ''
+    - '0'
+    - biet-thu-hien-dai
   - - '3'
     - NỘI THẤT
     - ''
-    - http://netphoxinh.com/image/450/300/1/0/project/category/Contemporary-home-design-furniture.jpg
     - '1'
     - '6'
     - 
     - '2015-11-03 17:22:09.465401'
-    - '2015-11-03 17:22:09.465401'
+    - '2015-11-21 10:08:47.353789'
+    - http://netphoxinh.com/image/450/300/1/0/project/thumb/42167.jpg
+    - ''
+    - '1'
+    - noi-that
   - - '4'
     - NHÀ XƯỞNG
     - ''
-    - http://netphoxinh.com/image/450/300/1/0/project/category/3-21-20138-03-13-PM401khungketcauthep.jpg
     - '1'
     - '3'
     - 
     - '2015-11-03 17:22:29.732533'
-    - '2015-11-03 17:22:29.732533'
+    - '2015-11-21 10:08:37.253647'
+    - http://netphoxinh.com/image/450/300/1/0/project/thumb/PC-DO-a.jpg
+    - ''
+    - '0'
+    - nha-xuong
   - - '5'
     - CÔNG TRÌNH KHÁC
     - ''
-    - http://netphoxinh.com/image/450/300/1/0/project/category/diendanbaclieu-91234-phu-my-hung.jpg
+    - '1'
     - '1'
     - 
-    - 
     - '2015-11-03 17:24:12.690413'
-    - '2015-11-03 17:24:12.690413'
-  - - '6'
-    - CÔNG TRÌNH ĐANG THỰC HIỆN
+    - '2015-11-21 10:08:28.059408'
+    - http://netphoxinh.com/image/450/300/1/0/project/thumb/NP033_8.jpg
     - ''
-    - http://netphoxinh.com/image/450/300/1/0/project/category/hinh-2.jpg
+    - '0'
+    - cong-trinh-khac
+  - - '6'
+    - VN CÔNG TRÌNH ĐANG THỰC HIỆN
+    - "VN MẪU NHÀ PHỐ HIỆN ĐẠI\r\ntest \r\n"
     - '1'
     - '7'
     - 
     - '2015-11-03 17:24:31.59786'
-    - '2015-11-03 17:24:31.59786'
+    - '2015-11-24 15:58:51.058614'
+    - http://netphoxinh.com/image/450/300/1/0/project/thumb/NP058_3.jpg
+    - "VN MẪU NHÀ PHỐ HIỆN ĐẠI -\r\ntest"
+    - '0'
+    - vn-cong-trinh-dang-thuc-hien
+
+---
+company_translations:
+  columns:
+  - id
+  - company_id
+  - locale
+  - created_at
+  - updated_at
+  - name
+  - address
+  - about_us_title
+  - about_us_content
+  - image_title
+  - image_description
+  records: 
+  - - '1'
+    - '1'
+    - vn
+    - '2015-11-24 15:04:05.200669'
+    - '2015-11-24 15:19:45.864697'
+    - CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MIỀN ĐÔNG VÀ TÂY NGUYÊN
+    - 62/1 hẻm 159 đường 11,  KP9, Trường Thọ, Thủ Đức, TP.HCM
+    - Xay dung mien dong
+    - "Khanh Phat Contruction –Designing – Consultant joint stock company before is
+      the Khanh Phat Contruction –Designing – Consultant co.Ltd, established 29/11/2006
+      ,with a team of key masters, engineers, architects, skilled, professional, seasoned
+      experience come from specialized universities such as the  Ho Chi Minh City
+      University of architecture, Ho Chi Minh City University ò Technology, University
+      of Technical Education Ho Chi Minh City, the Asian Institute of technology-ATI.
+      Including a number of members currently is senior lecturer in the fields mentioned
+      above.\r\n\r\nSince inception,Khanh Phat Company has identified  goal of becoming
+      a professional consulting firm in the field of construction. So the company
+      focused on developing the main areas such as Project Management Consultant,
+      Consulting Design, Monitoring Consultant. To date the number of projects implemented
+      Khanh Phat has reached the hundreds. In such a project investor confidence and
+      become customers of the company for many years as the Corporation Import and
+      Export Trade Thanh Le –MTV co.Ltd, Engineering Co.Ltd – Tien Tien Construction
+      and Trade company, 9 HUD9 Development investments Housing and Urban  Joint Stock
+      Company, Le Thanh Trade and Construction Co.Ltd, Saigon Travel Corporation,
+      Saigon Tourist ...\r\n"
+    - Title
+    - "Until 2011, the goal of growing the company to a new stature, more scale, more
+      professional, Board members and Board of Directors have decided to switch from
+      the LTD Company form up joint stock companies.\r\n\r\nWith experience and professionalism
+      in the work, the Khanh Phat company is always the right choice of the client."
+  - - '2'
+    - '1'
+    - en
+    - '2015-11-24 15:27:48.136325'
+    - '2015-11-24 15:27:48.136325'
+    - CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MIỀN ĐÔNG VÀ TÂY NGUYÊN
+    - 62/1 hẻm 159 đường 11,  KP9, Trường Thọ, Thủ Đức, TP.HCM
+    - EN Xay dung mien dong
+    - "Khanh Phat Contruction –Designing – Consultant joint stock company before is
+      the Khanh Phat Contruction –Designing – Consultant co.Ltd, established 29/11/2006
+      ,with a team of key masters, engineers, architects, skilled, professional, seasoned
+      experience come from specialized universities such as the  Ho Chi Minh City
+      University of architecture, Ho Chi Minh City University ò Technology, University
+      of Technical Education Ho Chi Minh City, the Asian Institute of technology-ATI.
+      Including a number of members currently is senior lecturer in the fields mentioned
+      above.\r\n\r\nSince inception,Khanh Phat Company has identified  goal of becoming
+      a professional consulting firm in the field of construction. So the company
+      focused on developing the main areas such as Project Management Consultant,
+      Consulting Design, Monitoring Consultant. To date the number of projects implemented
+      Khanh Phat has reached the hundreds. In such a project investor confidence and
+      become customers of the company for many years as the Corporation Import and
+      Export Trade Thanh Le –MTV co.Ltd, Engineering Co.Ltd – Tien Tien Construction
+      and Trade company, 9 HUD9 Development investments Housing and Urban  Joint Stock
+      Company, Le Thanh Trade and Construction Co.Ltd, Saigon Travel Corporation,
+      Saigon Tourist ...\r\n"
+    - Title
+    - "Until 2011, the goal of growing the company to a new stature, more scale, more
+      professional, Board members and Board of Directors have decided to switch from
+      the LTD Company form up joint stock companies.\r\n\r\nWith experience and professionalism
+      in the work, the Khanh Phat company is always the right choice of the client."
 
 ---
 companies:
@@ -138,20 +487,16 @@ companies:
   - background_url
   - logo
   - image_url
-  - about_us_title_en
-  - about_us_title_vn
-  - about_us_content_vn
-  - about_us_content_en
   - facebook
   - google_plus
   - twiter
   - youtube
   - linkedin
   - partners
-  - image_title_en
-  - image_title_vn
-  - image_description_en
-  - image_description_vn
+  - about_us_title
+  - about_us_content
+  - image_title
+  - image_description
   records: 
   - - '1'
     - CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MIỀN ĐÔNG VÀ TÂY NGUYÊN
@@ -163,29 +508,19 @@ companies:
     - miendongtaynguyen@gmail.com
     - Lê Minh Tần
     - '2015-10-24 05:58:21.491086'
-    - '2015-11-03 16:50:38.998525'
+    - '2015-11-24 15:27:48.142802'
     - '106.752198'
     - '10.841167'
-    - https://lh3.googleusercontent.com/ZNyVEGqmb9yslElEsjePXt9EXssZ9CiS4TJTRKW6fF82h4xzwTYn9v618o9ydXZMKervsGzXBdtGhofN-8vDeNYydPf7jnf0UG3BDULZSU7eC8CciFPBP_odrTE_1IEhIi_AObifovqt6JhWDHtWbKTVcuhYH5ByUWtrBfimjwPNg_pKIqX0CP_UcT2Pa90nDwHw0FBJC0AcT3Bj0FpGv6qwMf2UCmk5vnlcHIItEBBVRMjE3mfb2ub74HDVBl-8j0y1N3kYaLzVBh5QUlfBp6kZUsuStBtvfNARpxmmyFJ9AW0gE6hAszgWIeGwAHJYDSMtufdvVjYz9GlHMNj2G-F-_nB_8_BNpSbxH92oi7fQJOo5Mo0Ft2YyGVbyTAOG71H7Q5lP9AaNMpCP83hpa9hHLlfksinZCW3_V3CzqffRzaTuLW_YcMsGMhndS-X0lzG7U52a1qvzJ3SqQnXQ0LDY13G6BkT-ffwcpi_KIK0YkG1W08j2cA_cNVV77Pj_gVAlZ2w_dNh3yeCSnyMqgIuzuRJhf30fCB7DQqyPOCE=w1042-h657-no
+    - "/images/bg_miendong.jpg"
     - "/images/logo.jpg"
     - https://lh3.googleusercontent.com/ePkASsw86APgSCAvsUWSEEIHkupqIoEKiiNsWVz6YVqVuLb-p513LnIrS1oOq5FzZK29mf869zA8CoD4S1HQNwHBFaXCBfejm9Xepca5B_ZrbS_Zr1-8fdl3WyhBomOCFX8u9LRbF-FDskca7qMhZa5fG_CUEoVcN9lOVhH_I9LGVP0vEdOrASHVZ2egOU44xWnqC1JKepNS9_0QYpvXVgy7pn4bUmmzhZOUQhpgt_tjHqUKbqmTae8lmDArbhtOgdmCIYiod2MPib2vLNdEFiIoKX6n68b7Nwm_JD-NrQsTFchD9hOlQCXBXk7NBokvR8gimrfaSIB4aGtD09d5QM4H7A5nJPBVUKjnnMFYEwtWZWd0P-a2wALx7Xa1-XOSQhjkT_7p0cEoeeWX_n-1OMJzO5ykNIl0PYh8bAnOFGMXO60_-9ARgRJSF7cHncvjhptQvD9S9SD0kTlQf-B8ZLL83xZvtddvP3ePFCBfP0aA3AEbcKuEWfLO3wGsekcTOiOym6IwrCcNMJvzLdmbda1H4YgmM6XCNPDgLTOkRF4=w427-h320-no
-    - About us
-    - Xay dung mien dong
-    - "Công ty Cổ phần Tư vấn Thiết kế Xây dựng Khánh Phát, tiền thân là Công ty TNHH
-      Tư vấn Thiết kế Xây dựng Khánh Phát, được thành lập ngày 29/11/2006 với đội
-      ngũ nòng cốt là các Thạc sỹ, Kỹ sư, Kiến trúc sư tốt nghiệp từ các trường đại
-      học chuyên ngành như Đại học Kiến trúc TP.HCM, Đại học Bách khoa TP.HCM, Đại
-      học Sư phạm kỹ thuật TP.HCM, Học viện Kỹ thuật Châu Á – ATI. Trong đó có một
-      số thành viên hiện đang là giảng viên chính tại các trường nói trên.\r\n\r\nNgay
-      từ ngày đầu thành lập, Công ty Khánh Phát đã xác định mục tiêu trở thành một
-      công ty tư vấn chuyên nghiệp trong lĩnh vực xây dựng. Vì vậy Công ty tập trung
-      phát triển các mảng chính như Tư vấn Quản lý dự án, Tư vấn Thiết kế, Tư vấn
-      Giám sát. Đến nay số lượng dự án Khánh Phát thực hiện đã lên đến con số hàng
-      trăm. Trong đó một số chủ đầu tư dự án đã tín nhiệm và trở thành khách hàng
-      của công ty trong nhiều năm liền như Tổng công ty Thương mại Xuất nhập khẩu
-      Thanh Lễ - TNHH MTV, Công ty TNHH Cơ khí – Xây dựng và Thương mại Tiên Tiến,
-      Công ty Cổ phần đầu tư phát triển nhà và đô thị số 9 HUD9, Công ty TNHH Thương
-      mại Xây dựng Lê Thành, Tổng công ty Du lịch Sài Gòn Saigon Tourist …\r\n"
+    - https://www.facebook.com/
+    - 
+    - https://twitter.com/?lang=en
+    - https://www.youtube.com/
+    - https://www.linkedin.com/
+    - "{}"
+    - EN Xay dung mien dong
     - "Khanh Phat Contruction –Designing – Consultant joint stock company before is
       the Khanh Phat Contruction –Designing – Consultant co.Ltd, established 29/11/2006
       ,with a team of key masters, engineers, architects, skilled, professional, seasoned
@@ -203,19 +538,64 @@ companies:
       and Trade company, 9 HUD9 Development investments Housing and Urban  Joint Stock
       Company, Le Thanh Trade and Construction Co.Ltd, Saigon Travel Corporation,
       Saigon Tourist ...\r\n"
-    - https://www.facebook.com/
-    - 
-    - https://twitter.com/?lang=en
-    - https://www.youtube.com/
-    - https://www.linkedin.com/
-    - "{}"
-    - ''
-    - ''
-    - "Until 2011, the goal of growing the company to a new stature, more scale, more
-      professional, Board members and Board of Directors have decided to switch from
-      the LTD Company form up joint stock companies.\r\n\r\nWith experience and professionalism
-      in the work, the Khanh Phat company is always the right choice of the client.\r\n"
+    - Title
     - "Until 2011, the goal of growing the company to a new stature, more scale, more
       professional, Board members and Board of Directors have decided to switch from
       the LTD Company form up joint stock companies.\r\n\r\nWith experience and professionalism
       in the work, the Khanh Phat company is always the right choice of the client."
+
+---
+service_translations:
+  columns:
+  - id
+  - service_id
+  - locale
+  - created_at
+  - updated_at
+  - name
+  - description
+  - sub_service
+  records: 
+  - - '1'
+    - '1'
+    - vn
+    - '2015-11-24 15:36:54.879491'
+    - '2015-11-24 15:36:54.879491'
+    - Thi công xây dựng và lắp đặt hoàn chỉnh công trình
+    - ''
+    - "- Dân dụng và công nghiệp\r\n- Hạ tẩng đô thị, giao thông, cấp thoát nước,
+      thủy lợi"
+  - - '2'
+    - '3'
+    - vn
+    - '2015-11-24 15:36:54.906649'
+    - '2015-11-24 15:36:54.906649'
+    - Thiết kế công trình dân dụng và công nghiệp
+    - ''
+    - ''
+  - - '3'
+    - '6'
+    - vn
+    - '2015-11-24 15:36:54.914583'
+    - '2015-11-24 15:36:54.914583'
+    - Tư vấn xây dựng
+    - ''
+    - "- Quản lý dự án, thẩm tra thiết kế\r\n- Tư vấn đấu thầu, lập tổng dự toán,
+      quản lý chi phí\r\n- Giám sát thi công, khảo sát địa hình"
+  - - '4'
+    - '7'
+    - vn
+    - '2015-11-24 15:36:54.922392'
+    - '2015-11-24 15:36:54.922392'
+    - Cung cấp thiết bị, vật liệu xây dựng
+    - ''
+    - ''
+  - - '5'
+    - '1'
+    - en
+    - '2015-11-24 15:37:14.726928'
+    - '2015-11-24 15:37:14.726928'
+    - EN Thi công xây dựng và lắp đặt hoàn chỉnh công trình
+    - ''
+    - "- Dân dụng và công nghiệp\r\n- Hạ tẩng đô thị, giao thông, cấp thoát nước,
+      thủy lợi"
