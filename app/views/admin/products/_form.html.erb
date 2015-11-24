@@ -3,20 +3,27 @@
   remote: true,
   html: { :class => 'form-horizontal' } do |f| %>
   <%= f.semantic_errors %>
-  Images
-  <hr/>
-  <%= f.semantic_fields_for :images do |h| %>
-    <div id="panel_image_<%= h.index + 1 %>" class="panel panel-default">
-      <div class="panel-heading">Image <%= h.index + 1 %></div>
-      <div class="panel-body">
-        <%= h.input :title %>
-        <%= h.input :url_thumb %>
-        <%= h.input :url %>
-        <%= h.input :position %>
-      </div>
-    </div>
+  <div class="row">
 
-  <% end %>
+  </div>
+  Images <span class="pull-right"><button id="add_image" type="button" class="btn btn-success text-right">Add Image</button></span>
+
+  <hr/>
+  <div id="images">
+    <%= f.semantic_fields_for :images do |h| %>
+      <div id="panel_image_<%= h.index %>" class="panel panel-info">
+        <div class="panel-heading">Image <%= h.index + 1 %> <span class="pull-right"><button type="button" data-id="<%= h.index %>" class="del-image btn btn-danger btn-sm">Del</button></span></div>
+        <div class="panel-body">
+          <%= h.input :_destroy, as: :hidden %>
+          <%= h.input :title %>
+          <%= h.input :url_thumb %>
+          <%= h.input :url %>
+          <%= h.input :position %>
+        </div>
+      </div>
+
+    <% end %>
+  </div>
   Information
   <hr/>
   <%= f.inputs do %>
@@ -25,7 +32,7 @@
     <%= f.input :summary_description,  :input_html => { :class => 'autogrow', :rows => 5, :cols => 20} %>
     <%= f.input :description,  :input_html => { :class => 'autogrow', :rows => 10, :cols => 20} %>
     <%= f.input :image_url %>
-    <%= f.input :status, as: :select, collection: Product.statuses.keys %>
+    <%= f.input :status, as: :select, collection: options_for_select(Product.statuses.keys, f.object.status.to_s) %>
     <%= f.input :service_id, as: :select, collection: @services_collections %>
   <% end %>
 

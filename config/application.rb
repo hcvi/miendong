@@ -20,6 +20,6 @@ module Xaydungmiendong
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     config.i18n.default_locale = :vn
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
-    config.i18n.fallbacks = true
+    #config.i18n.fallbacks = true
   end
 end

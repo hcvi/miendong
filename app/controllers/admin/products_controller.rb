@@ -5,13 +5,13 @@ class Admin::ProductsController < ApplicationController
   def index
     @company = Company.first
     @product = Product.new(company_id: @company.id)
-    3.times { @product.images.build }
+    1.times { @product.images.build }
     @products = Product.all.order('id DESC')
 
   end
 
   def edit
-
+    @product.images.build if @product.images.blank?
   end
 
   def update
@@ -43,7 +43,8 @@ class Admin::ProductsController < ApplicationController
         :image_url,
         :status,
         :company_id,
-        :service_id
+        :service_id,
+        images_attributes: [:_destroy, :id, :title, :url, :url_thumb, :position]
       )
   end
 

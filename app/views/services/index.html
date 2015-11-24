@@ -1,27 +1,26 @@
-<div class="lates">
-  <div class="container">
-    <div class="text-left">
-      <h2><%= t('message.services') %></h2>
-      <hr/>
-    </div>
-    <%- @services.each do |service|-%>
-      <div class="row wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-        <div class="col-md-2">
-          <%= image_tag service.image_url, class: 'img-responsive' %>
-        </div>
-        <div class="col-md-10">
-          <h3><%= service.name %></h3>
-          <p>
-            <% service.sub_service.split("\r\n").each do |sub| %>
-              <%= "#{sub}" %>
-              <br/>
-            <% end %>
-          </p>
-        </div>
-      </div>
-      <hr/>
 
-    <% end %>
-
+<div class="container">
+  <div class="text-left">
+    <h2><%= t('message.services') %></h2>
+    <hr/>
   </div>
+  <%- @services.each do |service|-%>
+    <div class="row wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="col-md-2">
+        <%= image_tag service.image_url, class: 'img-responsive' %>
+      </div>
+      <div class="col-md-10">
+        <h3><%= service.name %></h3>
+        <p>
+          <% service.sub_service.split("\r\n").each do |sub| %>
+            <%= "#{sub}" %>
+            <br/>
+          <% end %>
+        </p>
+      </div>
+    </div>
+    <hr/>
+
+  <% end %>
+
 </div>

@@ -1,23 +1,36 @@
 
 <%= render '/shared/main_slider' %>
 
-<div class="about">
-  <div class="container">
+<div class="container">
+  <div class="row">
     <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" >
-      <h2><%= @company.image_title_vn %> </h2>
+      <h3><%= @company.image_title_vn %></h3>
       <img src="<%= @company.image_url %>" class="img-responsive"/>
-      <p><%= @company.image_description_vn %>
-      </p>
+
+      <p><%= @company.image_description_vn %></p>
     </div>
 
     <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" >
-      <h2><%= @company.about_us_title_vn %> </h2>
+      <h3><%= @company.about_us_title_vn %> </h3>
       <p><%= @company.about_us_content_vn%></p>
     </div>
   </div>
 </div>
-<%= render partial: 'products' %>
-<%= render partial: 'services' %>
+<div class="container">
+  <h3><%= t('message.product_working') %></h3>
+  <hr/>
+  <div class="row">
+    <%= render partial: 'products/product', collection: @products_working, as: 'product' %>
+  </div>
+  <h3><%= t('message.product_complete') %></h3>
+  <hr/>
+  <div class="row">
+    <%= render partial: 'products/product', collection: @products_complete, as: 'product' %>
+  </div>
+  <div class="row">
+    <%= render partial: 'services' %>
+  </div>
+</div>
 <section id="conatcat-info">
   <div class="container">
       <div class="row">

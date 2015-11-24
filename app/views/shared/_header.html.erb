@@ -1,3 +1,74 @@
+<div class="w3-container top">
+  <a href="http://www.w3schools.com"><img src="http://www.w3schools.com/images/w3schools.png" alt="W3Schools.com" class="img-responsive"></a>
+  <div class="w3-right toptext w3-wide">THE WORLD'S LARGEST WEB DEVELOPER SITE</div>
+</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Xay dung mien dong</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation">
+          <%= active_link_to t('menu.home'), root_path %>
+        </li>
+        <li role="presentation">
+          <%= active_link_to t('menu.about'), about_path %>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <%= t('menu.products') %><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li>
+              <%= active_link_to t('menu.products_working'), "#{products_path}?status=working" %>
+            </li>
+            <li>
+              <%= active_link_to t('menu.products_complete'), "#{products_path}?status=completed" %>
+            </li>
+          </ul>
+        </li>
+
+
+        <li role="presentation">
+        </li>
+        <li role="presentation">
+          <%= active_link_to t('menu.service'), services_path %>
+        </li>
+        <li role="presentation">
+          <%#= active_link_to t('menu.blog'), blog_path %>
+        </li>
+        <li role="presentation">
+          <%= active_link_to t('menu.contact'), contact_path %>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= t("menu.#{I18n.locale}") %><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <% if I18n.locale != :vn %>
+            <li>
+              <%= link_to t('menu.vn'), current_url(locale: 'vn') %>
+            </li>
+            <% end %>
+
+            <% if I18n.locale != :en %>
+            <li>
+              <%= link_to t('menu.en'), current_url(locale: 'en') %>
+            </li>
+            <% end %>
+          </ul>
+        </li>
+
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+
+<!--
 <header>
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="top-line">
@@ -44,11 +115,10 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <%= t('menu.products') %><span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li>
-                    <%= active_link_to t('menu.products_working'), "#{products_path}?status=1" %>
+                    <%= active_link_to t('menu.products_working'), "#{products_path}?status=working" %>
                   </li>
                   <li>
-                    <%= active_link_to t('menu.products_complete'), "#{products_path}?stat
-                    =2" %>
+                    <%= active_link_to t('menu.products_complete'), "#{products_path}?status=completed" %>
                   </li>
                 </ul>
               </li>
@@ -87,4 +157,4 @@
       </div>
     </div>
   </nav>
-</header>
+</header> -->

@@ -1,51 +1,51 @@
-  <div class="aboutus">
-    <div class="container">
-      <h3><%= t('about.company_name') %></h3>
-      <ul class="contact">
-        <li>
-          <span class='color-blue'><%= t('models.company.tax_code') %>: </span>
-          <span><%= @company.tax_code %></span>
-        </li>
-        <li>
-          <span class='color-blue'><%= t('models.company.address') %>: </span>
-          <span><%= @company.address %></span>
-        </li>
-        <li>
-          <span class='color-blue'><%= t('models.company.email') %>: </span> 
-          <span><%= @company.email %></span>
-        </li>
-        <li>
-          <span class='color-blue'><%= t('models.company.phone') %>: </span>
-          <span><%= @company.phone %></span>
-        </li>
-        <li>
-          <span class='color-blue'><%= t('models.company.ceo') %>: </span>
-          <span><%= @company.ceo %></span>
-        </li>
-        
-      </ul>
-      <hr>
-      <div class="col-md-7 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-        <img src="<%= @company.image_url %>" class="img-responsive">
-        <h4><%= @company.about_us_title_vn %></h4>
-        <p><%= @company.about_us_content_vn %></p>
-      </div>
-      <div class="col-md-5 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-        <div class="skill">
-          <h2>Lĩnh vực hoạt động</h2>
-          <% @services.each  do |service|%>
-          <div class="progress-wrap">
-            <h4>- <%= service.name %></h4>
-          </div>
-          <% end %>
-        </div>        
+
+  <div class="container">
+    <h3><%= t('about.company_name') %></h3>
+    <ul class="contact">
+      <li>
+        <span class='color-blue'><%= t('models.company.tax_code') %>: </span>
+        <span><%= @company.tax_code %></span>
+      </li>
+      <li>
+        <span class='color-blue'><%= t('models.company.address') %>: </span>
+        <span><%= @company.address %></span>
+      </li>
+      <li>
+        <span class='color-blue'><%= t('models.company.email') %>: </span>
+        <span><%= @company.email %></span>
+      </li>
+      <li>
+        <span class='color-blue'><%= t('models.company.phone') %>: </span>
+        <span><%= @company.phone %></span>
+      </li>
+      <li>
+        <span class='color-blue'><%= t('models.company.ceo') %>: </span>
+        <span><%= @company.ceo %></span>
+      </li>
+
+    </ul>
+    <hr>
+    <div class="col-md-7 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <img src="<%= @company.image_url %>" class="img-responsive">
+      <h4><%= @company.about_us_title_vn %></h4>
+      <p><%= @company.about_us_content_vn %></p>
+    </div>
+    <div class="col-md-5 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+      <div class="skill">
+        <h2>Lĩnh vực hoạt động</h2>
+        <% @services.each  do |service|%>
+        <div class="progress-wrap">
+          <h4>- <%= service.name %></h4>
+        </div>
+        <% end %>
       </div>
     </div>
   </div>
-  
+
+
   <div class="our-team">
     <div class="container">
-      <h3><%= t('about.our_team') %></h3> 
+      <h3><%= t('about.our_team') %></h3>
       <div class="text-center">
         <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
           <img src="images/services/1.jpg" alt="" >

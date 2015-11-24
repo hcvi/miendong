@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'products/index'
 
-  get 'products/show'
+  get 'products/:slug' => 'products#show', as: 'product'
 
   namespace :admin do
     resources :companies

@@ -21,6 +21,6 @@ class Image < ActiveRecord::Base
   belongs_to :blog
   belongs_to :product
 
-  translates :title
+  translates :title#, :fallbacks_for_empty_translations => true
 
 end
