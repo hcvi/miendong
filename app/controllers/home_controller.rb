@@ -1,5 +1,7 @@
 class HomeController < ApplicationController
   def index
+    add_breadcrumb I18n.t('menu.home'), :root_path
+
     @services = Service.all
     @products_complete = Product.where(status: Product.statuses['completed'])
                                 .limit(6)

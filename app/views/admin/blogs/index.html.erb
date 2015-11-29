@@ -11,15 +11,41 @@
           <%= f.semantic_errors %>
         <%= f.input :title, :input_html => {class: ''} %>
         <%= f.input :tags, :input_html => {class: ''} %>
+
         <%= f.input :body, :input_html => { id: 'editor1', :class => 'autogrow', :rows => 10, :cols => 80 } %>
+        <br/>
+        <%= f.actions do %>
+          <%= f.action :submit, wrapper_html: { class: 'btn btn-success' } %>
+          <%= f.action :cancel, :as => :link %>
+        <% end %>
       <% end %>
-
-            <script>
-                // Replace the <textarea id="editor1"> with a CKEditor
-                // instance, using default configuration.
-                CKEDITOR.replace('editor1');
-            </script>
-
+      <script>
+          // Replace the <textarea id="editor1"> with a CKEditor
+          // instance, using default configuration.xc
+          CKEDITOR.editorConfig = function( config ){
+                // Define changes to default configuration here. For example:
+                // config.language = 'fr';
+                // config.uiColor = '#AADC6E';
+                config.height = '800px';
+            };
+          CKEDITOR.replace('editor1',{
+            height: '800px'
+          });
+      </script>
     </div>
   </div>
+
+   <div class="row">
+    <table id="blogs" class="table table-hover">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <%=  render partial: 'blog', collection: @blogs %>
+      </tbody>
+    </table>
+  <div style="height: 50px;"></div>
 </div>

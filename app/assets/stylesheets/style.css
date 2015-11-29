@@ -76,13 +76,10 @@ a:hover {
   list-style: none;
   background-color: #1BBD36;
   border-radius: 0px;
-  padding:3px 10px;
-  margin-bottom: 8px;
 }
 
 .breadcrumb li {
    text-transform:uppercase;
-   margin-top: 90px;
    font-weight:600;
 }
 

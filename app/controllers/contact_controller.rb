@@ -1,6 +1,9 @@
 class ContactController < ApplicationController
 
+
   def index
+    add_breadcrumb I18n.t('menu.home') , :root_path
+    add_breadcrumb I18n.t('menu.contact') , :contact_path
     @contact = Contact.new
   end
 
