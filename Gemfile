@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
+gem 'rails', '4.2.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -37,7 +37,7 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-gem 'pg'
+
 #gem 'formtastic', '~> 3.0'
 gem 'formtastic-bootstrap'
 gem 'bootstrap-sass'
@@ -51,6 +51,7 @@ gem 'exception_notification-rake', '~> 0.1.2'
 gem 'kaminari'
 gem 'yaml_db'
 gem 'globalize'
+gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller'
@@ -64,7 +65,7 @@ group :development, :test do
   gem 'annotate'
 end
 
-group :production do
-  gem 'rails_12factor'
-  gem 'puma'
-end
+# group :production do
+#   gem 'rails_12factor'
+#   gem 'puma'
+# end
