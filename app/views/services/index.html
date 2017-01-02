@@ -10,7 +10,7 @@
         <%= image_tag service.image_url, class: 'img-responsive' %>
       </div>
       <div class="col-md-10">
-        <h3><%= service.name %></h3>
+        <h4><%= service.name %></h4>
         <p>
           <% service.sub_service.split("\r\n").each do |sub| %>
             <%= "#{sub}" %>

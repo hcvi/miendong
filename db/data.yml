@@ -116,30 +116,11 @@ services:
   - image_url
   - icon
   records: 
-  - - 1
-    - EN Thi công xây dựng và lắp đặt hoàn chỉnh công trình
-    - 
-    - '2015-10-24 16:26:29.600336'
-    - '2015-11-24 15:37:14.732083'
-    - ''
-    - "- Dân dụng và công nghiệp\r\n- Hạ tẩng đô thị, giao thông, cấp thoát nước,
-      thủy lợi"
-    - http://netphoxinh.com/image/190/190/1/0/article/thumb/Dich-vu-Thi-cong-xay-dung.jpg
-    - ''
-  - - 3
-    - Thiết kế công trình dân dụng và công nghiệp
-    - 
-    - '2015-10-25 05:37:01.600901'
-    - '2015-11-24 15:36:54.909125'
-    - ''
-    - ''
-    - http://netphoxinh.com/image/190/190/1/0/article/thumb/Dich-vu-Thiet-ke-noi-that.jpg
-    - ''
   - - 6
     - Tư vấn xây dựng
     - 
     - '2015-10-25 05:43:40.127543'
-    - '2015-11-24 15:36:54.918243'
+    - '2017-01-02 14:32:34.995560'
     - ''
     - "- Quản lý dự án, thẩm tra thiết kế\r\n- Tư vấn đấu thầu, lập tổng dự toán,
       quản lý chi phí\r\n- Giám sát thi công, khảo sát địa hình"
@@ -149,7 +130,7 @@ services:
     - Cung cấp thiết bị, vật liệu xây dựng
     - 
     - '2015-10-25 05:44:57.777174'
-    - '2015-11-24 15:36:54.924551'
+    - '2017-01-02 14:30:11.407638'
     - ''
     - ''
     - http://netphoxinh.com/image/190/190/1/0/article/thumb/Dich-vu-Thiet-ke-kien-truc.jpg
@@ -418,9 +399,9 @@ company_translations:
     - 1
     - vn
     - '2015-11-24 15:04:05.200669'
-    - '2016-12-28 14:52:18.483951'
+    - '2017-01-02 15:24:59.326177'
     - CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MIỀN ĐÔNG VÀ TÂY NGUYÊN
-    - 62/1 hẻm 159 đường 11,  KP9, Trường Thọ, Thủ Đức, TP.HCM
+    - "Đường 11, Trường Thọ, Thủ Đức, TP.HCM"
     - Lĩnh vực hoạt động
     - "<p><strong>X&acirc;y dựng, lắp đặt c&aacute;c c&ocirc;ng tr&igrave;nh:</strong>
       D&acirc;n dụng v&agrave; C&ocirc;ng nghiệp; C&ocirc;ng tr&igrave;nh kỹ thuật
@@ -521,7 +502,7 @@ companies:
     - miendongtaynguyen@gmail.com
     - Lê Minh Tần
     - '2015-10-24 05:58:21.491086'
-    - '2016-12-28 14:52:18.481679'
+    - '2017-01-02 15:24:59.323952'
     - 106.752198
     - 10.841167
     - "/images/bg_miendong.jpg"
@@ -569,46 +550,21 @@ service_translations:
   - description
   - sub_service
   records: 
-  - - 1
-    - 1
-    - vn
-    - '2015-11-24 15:36:54.879491'
-    - '2015-11-24 15:36:54.879491'
-    - Thi công xây dựng và lắp đặt hoàn chỉnh công trình
-    - ''
-    - "- Dân dụng và công nghiệp\r\n- Hạ tẩng đô thị, giao thông, cấp thoát nước,
-      thủy lợi"
-  - - 2
-    - 3
-    - vn
-    - '2015-11-24 15:36:54.906649'
-    - '2015-11-24 15:36:54.906649'
-    - Thiết kế công trình dân dụng và công nghiệp
-    - ''
-    - ''
   - - 3
     - 6
     - vn
     - '2015-11-24 15:36:54.914583'
-    - '2015-11-24 15:36:54.914583'
+    - '2017-01-02 14:32:34.997666'
     - Tư vấn xây dựng
     - ''
-    - "- Quản lý dự án, thẩm tra thiết kế\r\n- Tư vấn đấu thầu, lập tổng dự toán,
-      quản lý chi phí\r\n- Giám sát thi công, khảo sát địa hình"
+    - "- Thẩm tra thiết kế.\r\n- Thẩm tra tổng dự toán. \r\n- Quản lý dự án.\r\n-
+      Tư vấn đấu thầu, lập tổng dự toán, quản lý chi phí.\r\n- Giám sát xậy dựng và
+      \ hoàn thiện.\r\n- Khảo sát địa hình."
   - - 4
     - 7
     - vn
     - '2015-11-24 15:36:54.922392'
-    - '2015-11-24 15:36:54.922392'
-    - Cung cấp thiết bị, vật liệu xây dựng
+    - '2017-01-02 14:30:11.411542'
+    - Xin phép  xây dựng
     - ''
     - ''
-  - - 5
-    - 1
-    - en
-    - '2015-11-24 15:37:14.726928'
-    - '2015-11-24 15:37:14.726928'
-    - EN Thi công xây dựng và lắp đặt hoàn chỉnh công trình
-    - ''
-    - "- Dân dụng và công nghiệp\r\n- Hạ tẩng đô thị, giao thông, cấp thoát nước,
-      thủy lợi"
