@@ -1,57 +1,5 @@
 
 ---
-services:
-  columns:
-  - id
-  - name
-  - parent_id
-  - created_at
-  - updated_at
-  - description
-  - sub_service
-  - image_url
-  - icon
-  records: 
-  - - '1'
-    - EN Thi công xây dựng và lắp đặt hoàn chỉnh công trình
-    - 
-    - '2015-10-24 16:26:29.600336'
-    - '2015-11-24 15:37:14.732083'
-    - ''
-    - "- Dân dụng và công nghiệp\r\n- Hạ tẩng đô thị, giao thông, cấp thoát nước,
-      thủy lợi"
-    - http://netphoxinh.com/image/190/190/1/0/article/thumb/Dich-vu-Thi-cong-xay-dung.jpg
-    - ''
-  - - '3'
-    - Thiết kế công trình dân dụng và công nghiệp
-    - 
-    - '2015-10-25 05:37:01.600901'
-    - '2015-11-24 15:36:54.909125'
-    - ''
-    - ''
-    - http://netphoxinh.com/image/190/190/1/0/article/thumb/Dich-vu-Thiet-ke-noi-that.jpg
-    - ''
-  - - '6'
-    - Tư vấn xây dựng
-    - 
-    - '2015-10-25 05:43:40.127543'
-    - '2015-11-24 15:36:54.918243'
-    - ''
-    - "- Quản lý dự án, thẩm tra thiết kế\r\n- Tư vấn đấu thầu, lập tổng dự toán,
-      quản lý chi phí\r\n- Giám sát thi công, khảo sát địa hình"
-    - http://netphoxinh.com/image/190/190/1/0/article/thumb/Dich-vu-Thiet-ke-kien-truc.jpg
-    - ''
-  - - '7'
-    - Cung cấp thiết bị, vật liệu xây dựng
-    - 
-    - '2015-10-25 05:44:57.777174'
-    - '2015-11-24 15:36:54.924551'
-    - ''
-    - ''
-    - http://netphoxinh.com/image/190/190/1/0/article/thumb/Dich-vu-Thiet-ke-kien-truc.jpg
-    - ''
-
----
 images:
   columns:
   - id
@@ -66,18 +14,18 @@ images:
   - title
   - position
   records: 
-  - - '2'
+  - - 2
     - 
     - 
     - 
     - '2015-11-21 05:01:31.05329'
-    - '2015-11-21 09:11:50.230977'
-    - http://netphoxinh.com/image/450/300/1/0/project/thumb/NP058_3.jpg
-    - http://netphoxinh.com/image/1200/550/0/3/project/banners/NP058_2.jpg
-    - '6'
+    - '2017-01-02 10:30:28.174331'
+    - https://www.flickr.com/photos/146381072@N04/shares/GCXE8N
+    - https://www.flickr.com/photos/146381072@N04/shares/GCXE8N
+    - 6
     - Title en
     - top
-  - - '3'
+  - - 3
     - 
     - 
     - 
@@ -85,10 +33,10 @@ images:
     - '2015-11-21 09:11:50.237261'
     - http://netphoxinh.com/image/450/300/1/0/project/thumb/NP058_3.jpg
     - http://netphoxinh.com/image/1200/550/0/3/project/banners/NP058_3.jpg
-    - '6'
+    - 6
     - " Title 2 en"
     - ''
-  - - '4'
+  - - 4
     - 
     - 
     - 
@@ -96,10 +44,10 @@ images:
     - '2015-11-21 10:08:28.063716'
     - https://farm1.static.flickr.com/674/23130463915_fd1967716b_s.jpg
     - http://netphoxinh.com/image/1200/550/0/3/project/banners/NP058_6.jpg
-    - '5'
+    - 5
     - nha pho
     - ''
-  - - '5'
+  - - 5
     - 
     - 
     - 
@@ -107,10 +55,10 @@ images:
     - '2015-11-21 10:08:37.257974'
     - https://farm1.static.flickr.com/674/23130463915_fd1967716b_s.jpg
     - http://netphoxinh.com/image/1200/550/0/3/project/banners/12179.jpg
-    - '4'
+    - 4
     - nha xuong
     - ''
-  - - '6'
+  - - 6
     - 
     - 
     - 
@@ -118,10 +66,10 @@ images:
     - '2015-11-21 10:08:47.358158'
     - https://farm1.static.flickr.com/674/23130463915_fd1967716b_s.jpg
     - http://netphoxinh.com/image/1200/550/0/3/project/banners/2.jpg
-    - '3'
+    - 3
     - noi that
     - ''
-  - - '7'
+  - - 7
     - 
     - 
     - 
@@ -129,10 +77,10 @@ images:
     - '2015-11-21 10:09:06.802981'
     - https://farm1.static.flickr.com/674/23130463915_fd1967716b_s.jpg
     - http://netphoxinh.com/image/1200/550/0/3/project/banners/NP058_8.jpg
-    - '2'
+    - 2
     - ''
     - ''
-  - - '8'
+  - - 8
     - 
     - 
     - 
@@ -140,10 +88,10 @@ images:
     - '2015-11-21 10:09:16.379683'
     - https://farm1.static.flickr.com/674/23130463915_fd1967716b_s.jpg
     - http://netphoxinh.com/image/1200/550/0/3/project/banners/12179.jpg
-    - '1'
+    - 1
     - " "
     - ''
-  - - '9'
+  - - 9
     - 
     - 
     - 
@@ -151,156 +99,60 @@ images:
     - '2015-11-21 10:04:48.009111'
     - https://farm6.static.flickr.com/5631/22517669404_0df74f85fc_s.jpg
     - http://netphoxinh.com/image/1200/550/0/3/project/banners/4.jpg
-    - '1'
+    - 1
     - " "
     - ''
 
 ---
-image_translations:
+services:
   columns:
   - id
-  - image_id
-  - locale
-  - created_at
-  - updated_at
-  - title
-  records: 
-  - - '2'
-    - '2'
-    - vn
-    - '2015-11-21 05:01:31.122332'
-    - '2015-11-21 08:48:39.396914'
-    - Title vn
-  - - '3'
-    - '3'
-    - vn
-    - '2015-11-21 05:05:49.099132'
-    - '2015-11-21 08:48:39.406034'
-    - " Title 2 vn"
-  - - '4'
-    - '2'
-    - en
-    - '2015-11-21 09:11:50.224975'
-    - '2015-11-21 09:11:50.224975'
-    - Title en
-  - - '5'
-    - '3'
-    - en
-    - '2015-11-21 09:11:50.235164'
-    - '2015-11-21 09:11:50.235164'
-    - " Title 2 en"
-  - - '6'
-    - '4'
-    - vn
-    - '2015-11-21 09:14:08.365536'
-    - '2015-11-21 09:14:08.365536'
-    - nha pho
-  - - '7'
-    - '5'
-    - vn
-    - '2015-11-21 09:15:10.696292'
-    - '2015-11-21 09:15:32.35288'
-    - nha xuong
-  - - '8'
-    - '6'
-    - vn
-    - '2015-11-21 09:17:01.763682'
-    - '2015-11-21 09:17:01.763682'
-    - noi that
-  - - '9'
-    - '7'
-    - vn
-    - '2015-11-21 09:17:50.847128'
-    - '2015-11-21 09:17:50.847128'
-    - ''
-  - - '10'
-    - '8'
-    - vn
-    - '2015-11-21 09:58:26.123155'
-    - '2015-11-21 09:58:26.123155'
-    - " "
-  - - '11'
-    - '9'
-    - vn
-    - '2015-11-21 10:04:48.007173'
-    - '2015-11-21 10:04:48.007173'
-    - " "
-
----
-product_translations:
-  columns:
-  - id
-  - product_id
-  - locale
-  - created_at
-  - updated_at
   - name
+  - parent_id
+  - created_at
+  - updated_at
   - description
-  - summary_description
+  - sub_service
+  - image_url
+  - icon
   records: 
-  - - '1'
-    - '1'
-    - vn
-    - '2015-11-18 16:39:45.061391'
-    - '2015-11-21 09:18:38.811482'
-    - NHÀ PHỐ
+  - - 1
+    - EN Thi công xây dựng và lắp đặt hoàn chỉnh công trình
+    - 
+    - '2015-10-24 16:26:29.600336'
+    - '2015-11-24 15:37:14.732083'
+    - ''
+    - "- Dân dụng và công nghiệp\r\n- Hạ tẩng đô thị, giao thông, cấp thoát nước,
+      thủy lợi"
+    - http://netphoxinh.com/image/190/190/1/0/article/thumb/Dich-vu-Thi-cong-xay-dung.jpg
+    - ''
+  - - 3
+    - Thiết kế công trình dân dụng và công nghiệp
+    - 
+    - '2015-10-25 05:37:01.600901'
+    - '2015-11-24 15:36:54.909125'
     - ''
     - ''
-  - - '2'
-    - '2'
-    - vn
-    - '2015-11-18 16:39:45.109135'
-    - '2015-11-21 09:17:50.840673'
-    - BIỆT THỰ HIỆN ĐẠI
+    - http://netphoxinh.com/image/190/190/1/0/article/thumb/Dich-vu-Thiet-ke-noi-that.jpg
+    - ''
+  - - 6
+    - Tư vấn xây dựng
+    - 
+    - '2015-10-25 05:43:40.127543'
+    - '2015-11-24 15:36:54.918243'
+    - ''
+    - "- Quản lý dự án, thẩm tra thiết kế\r\n- Tư vấn đấu thầu, lập tổng dự toán,
+      quản lý chi phí\r\n- Giám sát thi công, khảo sát địa hình"
+    - http://netphoxinh.com/image/190/190/1/0/article/thumb/Dich-vu-Thiet-ke-kien-truc.jpg
+    - ''
+  - - 7
+    - Cung cấp thiết bị, vật liệu xây dựng
+    - 
+    - '2015-10-25 05:44:57.777174'
+    - '2015-11-24 15:36:54.924551'
     - ''
     - ''
-  - - '3'
-    - '3'
-    - vn
-    - '2015-11-18 16:39:45.113805'
-    - '2015-11-21 09:17:01.757536'
-    - NỘI THẤT
-    - ''
-    - ''
-  - - '4'
-    - '4'
-    - vn
-    - '2015-11-18 16:39:45.118152'
-    - '2015-11-21 09:15:10.689867'
-    - NHÀ XƯỞNG
-    - ''
-    - ''
-  - - '5'
-    - '5'
-    - vn
-    - '2015-11-18 16:39:45.122642'
-    - '2015-11-21 09:14:08.35897'
-    - CÔNG TRÌNH KHÁC
-    - ''
-    - ''
-  - - '6'
-    - '6'
-    - vn
-    - '2015-11-18 16:39:45.127019'
-    - '2015-11-24 15:58:51.056054'
-    - VN CÔNG TRÌNH ĐANG THỰC HIỆN
-    - "VN MẪU NHÀ PHỐ HIỆN ĐẠI\r\ntest \r\n"
-    - "VN MẪU NHÀ PHỐ HIỆN ĐẠI -\r\ntest"
-  - - '7'
-    - '6'
-    - en
-    - '2015-11-18 17:41:58.895949'
-    - '2015-11-18 17:43:43.331423'
-    - EN CÔNG TRÌNH ĐANG THỰC HIỆN
-    - EN MẪU NHÀ PHỐ HIỆN ĐẠI -
-    - EN MẪU NHÀ PHỐ HIỆN ĐẠI -
-  - - '8'
-    - '1'
-    - en
-    - '2015-11-21 09:43:28.058'
-    - '2015-11-21 09:43:28.058'
-    - City home
-    - ''
+    - http://netphoxinh.com/image/190/190/1/0/article/thumb/Dich-vu-Thiet-ke-kien-truc.jpg
     - ''
 
 ---
@@ -318,79 +170,234 @@ products:
   - summary_description
   - status
   - slug
+  - main_product
   records: 
-  - - '1'
+  - - 1
     - City home
     - ''
-    - '1'
-    - '3'
+    - 1
+    - 3
     - 
     - '2015-11-03 17:20:47.709039'
-    - '2015-11-21 10:09:16.375705'
-    - http://netphoxinh.com/image/450/300/1/0/project/thumb/29005.jpg
+    - '2017-01-02 10:53:32.905433'
+    - http://www.khonggiandep.com.vn/Data/Sites/1/News/1346/_mg_2125.jpg
     - ''
-    - '1'
+    - 1
     - nha-pho
-  - - '2'
+    - true
+  - - 2
     - BIỆT THỰ HIỆN ĐẠI
     - ''
-    - '1'
-    - '6'
+    - 1
+    - 6
     - 
     - '2015-11-03 17:21:18.782642'
-    - '2015-11-21 10:09:06.798232'
-    - http://netphoxinh.com/image/450/300/1/0/project/thumb/nha-biet-thu-pho-hien-dai-11-1431585981_660x0.jpg
+    - '2017-01-02 10:53:18.164123'
+    - http://www.khonggiandep.com.vn/Data/Sites/1/News/1346/_mg_2125.jpg
     - ''
-    - '0'
+    - 1
     - biet-thu-hien-dai
-  - - '3'
+    - true
+  - - 3
     - NỘI THẤT
     - ''
-    - '1'
-    - '6'
+    - 1
+    - 6
     - 
     - '2015-11-03 17:22:09.465401'
-    - '2015-11-21 10:08:47.353789'
-    - http://netphoxinh.com/image/450/300/1/0/project/thumb/42167.jpg
+    - '2017-01-02 10:52:59.180306'
+    - http://www.khonggiandep.com.vn/Data/Sites/1/News/1346/_mg_2125.jpg
     - ''
-    - '1'
+    - 1
     - noi-that
-  - - '4'
+    - true
+  - - 4
     - NHÀ XƯỞNG
     - ''
-    - '1'
-    - '3'
+    - 1
+    - 3
     - 
     - '2015-11-03 17:22:29.732533'
-    - '2015-11-21 10:08:37.253647'
-    - http://netphoxinh.com/image/450/300/1/0/project/thumb/PC-DO-a.jpg
+    - '2017-01-02 10:52:28.158059'
+    - http://www.khonggiandep.com.vn/Data/Sites/1/News/1346/_mg_2125.jpg
     - ''
-    - '0'
+    - 0
     - nha-xuong
-  - - '5'
+    - true
+  - - 5
     - CÔNG TRÌNH KHÁC
     - ''
-    - '1'
-    - '1'
+    - 1
+    - 1
     - 
     - '2015-11-03 17:24:12.690413'
-    - '2015-11-21 10:08:28.059408'
-    - http://netphoxinh.com/image/450/300/1/0/project/thumb/NP033_8.jpg
+    - '2017-01-02 10:52:09.003459'
+    - http://www.khonggiandep.com.vn/Data/Sites/1/News/1346/_mg_2125.jpg
     - ''
-    - '0'
+    - 0
     - cong-trinh-khac
-  - - '6'
+    - true
+  - - 6
     - VN CÔNG TRÌNH ĐANG THỰC HIỆN
     - "VN MẪU NHÀ PHỐ HIỆN ĐẠI\r\ntest \r\n"
-    - '1'
-    - '7'
+    - 1
+    - 7
     - 
     - '2015-11-03 17:24:31.59786'
-    - '2015-11-24 15:58:51.058614'
-    - http://netphoxinh.com/image/450/300/1/0/project/thumb/NP058_3.jpg
+    - '2017-01-02 10:50:14.322300'
+    - http://www.khonggiandep.com.vn/Data/Sites/1/News/1346/_mg_2125.jpg
     - "VN MẪU NHÀ PHỐ HIỆN ĐẠI -\r\ntest"
-    - '0'
+    - 0
     - vn-cong-trinh-dang-thuc-hien
+    - true
+
+---
+product_translations:
+  columns:
+  - id
+  - product_id
+  - locale
+  - created_at
+  - updated_at
+  - name
+  - description
+  - summary_description
+  records: 
+  - - 1
+    - 1
+    - vn
+    - '2015-11-18 16:39:45.061391'
+    - '2015-11-21 09:18:38.811482'
+    - NHÀ PHỐ
+    - ''
+    - ''
+  - - 2
+    - 2
+    - vn
+    - '2015-11-18 16:39:45.109135'
+    - '2015-11-21 09:17:50.840673'
+    - BIỆT THỰ HIỆN ĐẠI
+    - ''
+    - ''
+  - - 3
+    - 3
+    - vn
+    - '2015-11-18 16:39:45.113805'
+    - '2015-11-21 09:17:01.757536'
+    - NỘI THẤT
+    - ''
+    - ''
+  - - 4
+    - 4
+    - vn
+    - '2015-11-18 16:39:45.118152'
+    - '2015-11-21 09:15:10.689867'
+    - NHÀ XƯỞNG
+    - ''
+    - ''
+  - - 5
+    - 5
+    - vn
+    - '2015-11-18 16:39:45.122642'
+    - '2015-11-21 09:14:08.35897'
+    - CÔNG TRÌNH KHÁC
+    - ''
+    - ''
+  - - 6
+    - 6
+    - vn
+    - '2015-11-18 16:39:45.127019'
+    - '2015-11-24 15:58:51.056054'
+    - VN CÔNG TRÌNH ĐANG THỰC HIỆN
+    - "VN MẪU NHÀ PHỐ HIỆN ĐẠI\r\ntest \r\n"
+    - "VN MẪU NHÀ PHỐ HIỆN ĐẠI -\r\ntest"
+  - - 7
+    - 6
+    - en
+    - '2015-11-18 17:41:58.895949'
+    - '2015-11-18 17:43:43.331423'
+    - EN CÔNG TRÌNH ĐANG THỰC HIỆN
+    - EN MẪU NHÀ PHỐ HIỆN ĐẠI -
+    - EN MẪU NHÀ PHỐ HIỆN ĐẠI -
+  - - 8
+    - 1
+    - en
+    - '2015-11-21 09:43:28.058'
+    - '2015-11-21 09:43:28.058'
+    - City home
+    - ''
+    - ''
+
+---
+image_translations:
+  columns:
+  - id
+  - image_id
+  - locale
+  - created_at
+  - updated_at
+  - title
+  records: 
+  - - 2
+    - 2
+    - vn
+    - '2015-11-21 05:01:31.122332'
+    - '2015-11-21 08:48:39.396914'
+    - Title vn
+  - - 3
+    - 3
+    - vn
+    - '2015-11-21 05:05:49.099132'
+    - '2015-11-21 08:48:39.406034'
+    - " Title 2 vn"
+  - - 4
+    - 2
+    - en
+    - '2015-11-21 09:11:50.224975'
+    - '2015-11-21 09:11:50.224975'
+    - Title en
+  - - 5
+    - 3
+    - en
+    - '2015-11-21 09:11:50.235164'
+    - '2015-11-21 09:11:50.235164'
+    - " Title 2 en"
+  - - 6
+    - 4
+    - vn
+    - '2015-11-21 09:14:08.365536'
+    - '2015-11-21 09:14:08.365536'
+    - nha pho
+  - - 7
+    - 5
+    - vn
+    - '2015-11-21 09:15:10.696292'
+    - '2015-11-21 09:15:32.35288'
+    - nha xuong
+  - - 8
+    - 6
+    - vn
+    - '2015-11-21 09:17:01.763682'
+    - '2015-11-21 09:17:01.763682'
+    - noi that
+  - - 9
+    - 7
+    - vn
+    - '2015-11-21 09:17:50.847128'
+    - '2015-11-21 09:17:50.847128'
+    - ''
+  - - 10
+    - 8
+    - vn
+    - '2015-11-21 09:58:26.123155'
+    - '2015-11-21 09:58:26.123155'
+    - " "
+  - - 11
+    - 9
+    - vn
+    - '2015-11-21 10:04:48.007173'
+    - '2015-11-21 10:04:48.007173'
+    - " "
 
 ---
 company_translations:
@@ -407,38 +414,44 @@ company_translations:
   - image_title
   - image_description
   records: 
-  - - '1'
-    - '1'
+  - - 1
+    - 1
     - vn
     - '2015-11-24 15:04:05.200669'
-    - '2015-11-24 15:19:45.864697'
+    - '2016-12-28 14:52:18.483951'
     - CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MIỀN ĐÔNG VÀ TÂY NGUYÊN
     - 62/1 hẻm 159 đường 11,  KP9, Trường Thọ, Thủ Đức, TP.HCM
-    - Xay dung mien dong
-    - "Khanh Phat Contruction –Designing – Consultant joint stock company before is
-      the Khanh Phat Contruction –Designing – Consultant co.Ltd, established 29/11/2006
-      ,with a team of key masters, engineers, architects, skilled, professional, seasoned
-      experience come from specialized universities such as the  Ho Chi Minh City
-      University of architecture, Ho Chi Minh City University ò Technology, University
-      of Technical Education Ho Chi Minh City, the Asian Institute of technology-ATI.
-      Including a number of members currently is senior lecturer in the fields mentioned
-      above.\r\n\r\nSince inception,Khanh Phat Company has identified  goal of becoming
-      a professional consulting firm in the field of construction. So the company
-      focused on developing the main areas such as Project Management Consultant,
-      Consulting Design, Monitoring Consultant. To date the number of projects implemented
-      Khanh Phat has reached the hundreds. In such a project investor confidence and
-      become customers of the company for many years as the Corporation Import and
-      Export Trade Thanh Le –MTV co.Ltd, Engineering Co.Ltd – Tien Tien Construction
-      and Trade company, 9 HUD9 Development investments Housing and Urban  Joint Stock
-      Company, Le Thanh Trade and Construction Co.Ltd, Saigon Travel Corporation,
-      Saigon Tourist ...\r\n"
+    - Lĩnh vực hoạt động
+    - "<p><strong>X&acirc;y dựng, lắp đặt c&aacute;c c&ocirc;ng tr&igrave;nh:</strong>
+      D&acirc;n dụng v&agrave; C&ocirc;ng nghiệp; C&ocirc;ng tr&igrave;nh kỹ thuật
+      hạ tầng đ&ocirc; thị v&agrave; khu c&ocirc;ng nghiệp; C&ocirc;ng tr&igrave;nh
+      giao th&ocirc;ng; C&ocirc;ng tr&igrave;nh thủy lợi; C&ocirc;ng tr&igrave;nh
+      c&ocirc;ng &iacute;ch; ho&agrave;n thiện c&ocirc;ng tr&igrave;nh. San lấp mặt
+      bằng.</p>\r\n\r\n<p><strong>Hoạt động kiến tr&uacute;c v&agrave; tư vấn kỹ thuật
+      c&oacute; li&ecirc;n quan:</strong> Thiết kế tổng mặt bằng x&acirc;y dựng c&ocirc;ng
+      tr&igrave;nh; Thiết kế kiến tr&uacute;c c&ocirc;ng tr&igrave;nh d&acirc;n dụng
+      v&agrave; c&ocirc;ng nghiệp; Thiết kế nội ngoại thất c&ocirc;ng tr&igrave;nh;
+      Thiết kế cấp nhiệt, th&ocirc;ng hơi, th&ocirc;ng gi&oacute;, điều h&ograve;a
+      kh&ocirc;ng kh&iacute;, c&ocirc;ng tr&igrave;nh d&acirc;n dụng v&agrave; c&ocirc;ng
+      nghiệp; Thiết kế phần cơ điện c&ocirc;ng tr&igrave;nh; Thiết kế x&acirc;y dựng
+      c&ocirc;ng tr&igrave;nh d&acirc;n dụng &ndash; c&ocirc;ng nghiệp; Thiết kế x&acirc;y
+      dựng hạ tầng kỹ thuật đ&ocirc; thị; Quản l&yacute; dự &aacute;n c&ocirc;ng tr&igrave;nh
+      x&acirc;y dựng; Tư vấn quản l&yacute; chi ph&iacute;; Lập tổng dự to&aacute;n
+      v&agrave; dự to&aacute;n c&ocirc;ng tr&igrave;nh; Tư vấn đấu thầu; Gi&aacute;m
+      s&aacute;t c&ocirc;ng t&aacute;c x&acirc;y dựng v&agrave; ho&agrave;n thiện
+      c&ocirc;ng t&igrave;nh D&acirc;n dụng - C&ocirc;ng nghiệp; Khảo s&aacute;t địa
+      h&igrave;nh c&ocirc;ng tr&igrave;nh.&nbsp;</p>\r\n\r\n<p><strong>Chuy&ecirc;n
+      kinh doanh:</strong> Sắt, Th&eacute;p, kết cấu x&acirc;y dựng, vật liệu, thiết
+      bị lắp đặt kh&aacute;c trong x&acirc;y dựng,&nbsp;chuyền c&ocirc;ng nghệ ng&agrave;nh
+      x&acirc;y dựng v&agrave; sản xuất vật liệu x&acirc;y dựng; m&aacute;y m&oacute;c
+      thiết bị x&acirc;y dựng; Sơn; vecni; c&aacute;c sản phẩm đồ gỗ mỹ nghệ...</p>\r\n"
     - Title
     - "Until 2011, the goal of growing the company to a new stature, more scale, more
       professional, Board members and Board of Directors have decided to switch from
       the LTD Company form up joint stock companies.\r\n\r\nWith experience and professionalism
       in the work, the Khanh Phat company is always the right choice of the client."
-  - - '2'
-    - '1'
+  - - 2
+    - 1
     - en
     - '2015-11-24 15:27:48.136325'
     - '2015-11-24 15:27:48.136325'
@@ -498,7 +511,7 @@ companies:
   - image_title
   - image_description
   records: 
-  - - '1'
+  - - 1
     - CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MIỀN ĐÔNG VÀ TÂY NGUYÊN
     - 0313302383
     - 62/1 hẻm 159 đường 11,  KP9, Trường Thọ, Thủ Đức, TP.HCM
@@ -508,9 +521,9 @@ companies:
     - miendongtaynguyen@gmail.com
     - Lê Minh Tần
     - '2015-10-24 05:58:21.491086'
-    - '2015-11-24 15:27:48.142802'
-    - '106.752198'
-    - '10.841167'
+    - '2016-12-28 14:52:18.481679'
+    - 106.752198
+    - 10.841167
     - "/images/bg_miendong.jpg"
     - "/images/logo.jpg"
     - https://lh3.googleusercontent.com/ePkASsw86APgSCAvsUWSEEIHkupqIoEKiiNsWVz6YVqVuLb-p513LnIrS1oOq5FzZK29mf869zA8CoD4S1HQNwHBFaXCBfejm9Xepca5B_ZrbS_Zr1-8fdl3WyhBomOCFX8u9LRbF-FDskca7qMhZa5fG_CUEoVcN9lOVhH_I9LGVP0vEdOrASHVZ2egOU44xWnqC1JKepNS9_0QYpvXVgy7pn4bUmmzhZOUQhpgt_tjHqUKbqmTae8lmDArbhtOgdmCIYiod2MPib2vLNdEFiIoKX6n68b7Nwm_JD-NrQsTFchD9hOlQCXBXk7NBokvR8gimrfaSIB4aGtD09d5QM4H7A5nJPBVUKjnnMFYEwtWZWd0P-a2wALx7Xa1-XOSQhjkT_7p0cEoeeWX_n-1OMJzO5ykNIl0PYh8bAnOFGMXO60_-9ARgRJSF7cHncvjhptQvD9S9SD0kTlQf-B8ZLL83xZvtddvP3ePFCBfP0aA3AEbcKuEWfLO3wGsekcTOiOym6IwrCcNMJvzLdmbda1H4YgmM6XCNPDgLTOkRF4=w427-h320-no
@@ -556,8 +569,8 @@ service_translations:
   - description
   - sub_service
   records: 
-  - - '1'
-    - '1'
+  - - 1
+    - 1
     - vn
     - '2015-11-24 15:36:54.879491'
     - '2015-11-24 15:36:54.879491'
@@ -565,16 +578,16 @@ service_translations:
     - ''
     - "- Dân dụng và công nghiệp\r\n- Hạ tẩng đô thị, giao thông, cấp thoát nước,
       thủy lợi"
-  - - '2'
-    - '3'
+  - - 2
+    - 3
     - vn
     - '2015-11-24 15:36:54.906649'
     - '2015-11-24 15:36:54.906649'
     - Thiết kế công trình dân dụng và công nghiệp
     - ''
     - ''
-  - - '3'
-    - '6'
+  - - 3
+    - 6
     - vn
     - '2015-11-24 15:36:54.914583'
     - '2015-11-24 15:36:54.914583'
@@ -582,16 +595,16 @@ service_translations:
     - ''
     - "- Quản lý dự án, thẩm tra thiết kế\r\n- Tư vấn đấu thầu, lập tổng dự toán,
       quản lý chi phí\r\n- Giám sát thi công, khảo sát địa hình"
-  - - '4'
-    - '7'
+  - - 4
+    - 7
     - vn
     - '2015-11-24 15:36:54.922392'
     - '2015-11-24 15:36:54.922392'
     - Cung cấp thiết bị, vật liệu xây dựng
     - ''
     - ''
-  - - '5'
-    - '1'
+  - - 5
+    - 1
     - en
     - '2015-11-24 15:37:14.726928'
     - '2015-11-24 15:37:14.726928'
