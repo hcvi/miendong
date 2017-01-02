@@ -1,4 +1,4 @@
-
+<script src="//cdn.ckeditor.com/4.5.5/standard/ckeditor.js"></script>
 <div class="container" style="margin-top: 100px">
   <%= flash_messages %>
   <div class="row">
@@ -26,7 +26,7 @@
           <%= f.input :image_title, :input_html => {class: ''} %>
           <%= f.input :image_description, :input_html => { :class => 'autogrow', :rows => 10, :cols => 20 } %>
           <%= f.input :about_us_title, :input_html => {class: ''} %>
-          <%= f.input :about_us_content, :input_html => { :class => 'autogrow', :rows => 10, :cols => 20 } %>
+          <%= f.input :about_us_content, :input_html => { id: 'editor_about_us_content', :class => 'autogrow', :rows => 10, :cols => 20 } %>
           <%= f.input :facebook, :input_html => {class: ''} %>
           <%= f.input :google_plus, :input_html => {class: ''} %>
           <%= f.input :twiter, :input_html => {class: ''} %>
@@ -43,3 +43,16 @@
   </div>
   <div style="height: 50px;"></div>
 </div>
+ <script>
+    // Replace the <textarea id="editor1"> with a CKEditor
+    // instance, using default configuration.xc
+    CKEDITOR.editorConfig = function( config ){
+          // Define changes to default configuration here. For example:
+          // config.language = 'fr';
+          // config.uiColor = '#AADC6E';
+          config.height = '800px';
+      };
+    CKEDITOR.replace('editor_about_us_content',{
+      height: '800px'
+    });
+</script>

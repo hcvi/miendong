@@ -1,15 +1,52 @@
-
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">MIỀN ĐÔNG VÀ TÂY NGUYÊN</a>
+<div class="container">
+  <div class="row box-header hidden-xs">
+    <div class="col-sm-3 box-logo">
+      <a href="/" >
+        <div>
+          <i class="fa fa-home " aria-hidden="true"></i>
+        </div>
+        <div class="text-logo">MIỀN ĐÔNG & TÂY NGUYÊN</div>
+      </a>
     </div>
+    <div class="col-sm-3">
+      <div class="box-address">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <span class="street">62/1 hẻm 159 đường 11 </span>
+        <span class="ward">KP9, Trường Thọ, Thủ Đức, TP.HCM</span>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box-phone">
+        <i class="fa fa-phone" aria-hidden="true"></i>
+        <span class="phone">0979006996 - 0932702446</span>
+        <span class="email">miendongtaynguyen@gmail.com</span>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box-open-time">
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        <span class="day">Thứ 2 - Thứ 7</span>
+        <span class="hour">08:00 - 17:00</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar navbar-default header js_navbar_top">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand hidden-sm hidden-md hidden-lg" href="/">
+      <i class="fa fa-home " aria-hidden="true"></i> <span>
+        MIỀN ĐÔNG VÀ TÂY NGUYÊN
+      </span>
+    </a>
+  </div>
+  <div class="container">
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li role="presentation">
@@ -18,7 +55,13 @@
         <li role="presentation">
           <%= active_link_to t('menu.about'), about_path %>
         </li>
-        <li class="dropdown">
+        <li role="presentation">
+          <%= active_link_to t('menu.design'), designs_path %>
+        </li>
+        <li role="presentation">
+          <%= active_link_to t('menu.products'), products_path %>
+        </li>
+       <!--  <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <%= t('menu.products') %><span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li>
@@ -28,11 +71,7 @@
               <%= active_link_to t('menu.products_complete'), "#{products_path}?status=completed" %>
             </li>
           </ul>
-        </li>
-
-
-        <li role="presentation">
-        </li>
+        </li> -->
         <li role="presentation">
           <%= active_link_to t('menu.service'), services_path %>
         </li>
@@ -42,7 +81,7 @@
         <li role="presentation">
           <%= active_link_to t('menu.contact'), contact_path,  'data-no-turbolink' => true %>
         </li>
-        <li class="dropdown">
+        <!-- <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= t("menu.#{I18n.locale}") %><span class="caret"></span></a>
           <ul class="dropdown-menu">
             <% if I18n.locale != :vn %>
@@ -57,9 +96,8 @@
             </li>
             <% end %>
           </ul>
-        </li>
-
+        </li> -->
       </ul>
-    </div><!--/.nav-collapse -->
+    </div>
   </div>
 </nav>

@@ -1307,8 +1307,8 @@ ul.contact li i {
 }
 
 .affix {
-      top: 0;
-      width: 100%;
+    top: 0;
+    width: 100%;
   }
 
   .affix + .container-fluid {
@@ -1318,3 +1318,25 @@ ul.contact li i {
 .img-responsive{
   width: 100%;
 }
+.navbar {
+  z-index: 99999;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+.logo {
+  width: 120px;
+}
+.carousel-control span {
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+a {
+  &:hover {
+    color: #1bbd36;
+  }
+}
+
+

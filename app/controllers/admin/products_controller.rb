@@ -44,6 +44,7 @@ class Admin::ProductsController < ApplicationController
         :status,
         :company_id,
         :service_id,
+        :main_product,
         images_attributes: [:_destroy, :id, :title, :url, :url_thumb, :position]
       )
   end

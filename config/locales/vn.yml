@@ -23,10 +23,11 @@ vn:
   menu:
     home: Trang Chủ
     about: Giới Thiệu
+    design: Thiết kế
+    products: Thi công
     service: Dịch vụ
-    blog: Blog
-    contact: Liên Lạc
-    products: Dự án
+    blog: Tin tức
+    contact: Liên hệ
     products_working: ĐANG THỰC HIỆN
     products_complete: HOÀN THÀNH
     vn: Tieng Viet
@@ -34,6 +35,7 @@ vn:
   message:
     product_working: "NHỮNG CÔNG TRÌNH ĐANG THỰC HIỆN"
     product_complete: "NHỮNG CÔNG TRÌNH HOÀN THÀNH"
+    product_default: CÔNG TRÌNH TIÊU BIỂU
     services: "Dịch vụ"
     contact: 'Nếu có thắc mắc, xin hãy liên lạc chúng tôi ?'
     company_service: 'Dịch vụ'

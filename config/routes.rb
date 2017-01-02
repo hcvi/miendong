@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   get '/services' => "services#index", as: 'services'
 
   get '/products' => "products#index", as: 'products'
+  get '/designs' => "designs#index", as: 'designs'
 
   get '/about' => "about#index", as: 'about'
   root 'home#index'

@@ -1,52 +1,32 @@
 
-<%= render '/shared/main_slider' %>
+<div class="container-fuild">
+  <div class="row">
+    <%= render '/shared/main_slider' %>
+  </div>
+</div>
 
 <div class="container">
   <div class="row">
-    <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" >
-      <h3><%= @company.image_title %></h3>
-      <img src="<%= @company.image_url %>" class="img-responsive"/>
-      <br />
-      <p><%= @company.image_description %></p>
-    </div>
+    <h4><%= t('message.product_default') %></h4>
+    <hr/>
+    <%= render partial: 'products/product', collection: @main_products, as: 'product' %>
+  </div>
 
-    <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" >
-      <h3><%= @company.about_us_title %> </h3>
-      <p><%= @company.about_us_content%></p>
-    </div>
-  </div>
-</div>
-<div class="container">
-  <h3><%= t('message.product_working') %></h3>
-  <hr/>
-  <div class="row">
-    <%= render partial: 'products/product', collection: @products_working, as: 'product' %>
-  </div>
-  <h3><%= t('message.product_complete') %></h3>
-  <hr/>
-  <div class="row">
-    <%= render partial: 'products/product', collection: @products_complete, as: 'product' %>
-  </div>
-  <div class="row">
-    <%= render partial: 'services' %>
-  </div>
-</div>
-<section id="conatcat-info">
-  <div class="container">
-      <div class="row">
-          <div class="col-sm-8">
-              <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                  <div class="pull-left">
-                      <a href="tel:<%= @company.mobile_phone %>"><i class="fa fa-phone"></i><a/>
-                  </div>
-                  <div class="media-body">
-                      <h2><%= t('message.contact') %></h2>
-                      <p>Hot Line: <%= @company.phone %></p>
-                  </div>
-              </div>
-          </div>
+  <div class="row box-partner">
+    <h3>Liên kết</h3>
+    <hr/>
+    <% (0..3).each do |item| %>
+      <div class="col-sm-3 partner-item">
+        <div class="thumbnail">
+          <a href="http://www.hcmut.edu.vn/vi/welcome/view/cac-don-vi-truc-thuoc/trung-tam-khoa-hoc--cong-nghe/tt-nghien-cuu-cong-nghe-va-thiet-bi-cong-nghiep-" target="_blank">
+            <img src="http://www.tuoitrebachkhoa.edu.vn/UploadImages/logo_bk28vien29-1458898048909.png" alt="Nature">
+            <div class="caption">
+              <p>TRUNG TÂM NGHIÊN CỨU CÔNG NGHỆ & THIẾT BỊ CÔNG NGHIỆP (RECTIE)</p>
+            </div>
+          </a>
+        </div>
       </div>
-  </div><!--/.container-->
-</section><!--/#conatcat-info-->
-
+    <% end %>
+  </div>
+</div>
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151129081140) do
+ActiveRecord::Schema.define(version: 20170102100117) do
 
   create_table "blogs", force: :cascade do |t|
     t.string   "title"
@@ -129,6 +129,7 @@ ActiveRecord::Schema.define(version: 20151129081140) do
     t.text     "summary_description"
     t.integer  "status"
     t.string   "slug"
+    t.boolean  "main_product"
   end
 
   create_table "service_translations", force: :cascade do |t|

@@ -1,57 +1,47 @@
-
-  <div class="container">
-    <h3><%= t('about.company_name') %></h3>
-    <ul class="contact">
-      <li>
-        <span class='color-blue'><%= t('models.company.tax_code') %>: </span>
-        <span><%= @company.tax_code %></span>
-      </li>
-      <li>
-        <span class='color-blue'><%= t('models.company.address') %>: </span>
-        <span><%= @company.address %></span>
-      </li>
-      <li>
-        <span class='color-blue'><%= t('models.company.email') %>: </span>
-        <span><%= @company.email %></span>
-      </li>
-      <li>
-        <span class='color-blue'><%= t('models.company.phone') %>: </span>
-        <span><%= @company.phone %></span>
-      </li>
-      <li>
-        <span class='color-blue'><%= t('models.company.ceo') %>: </span>
-        <span><%= @company.ceo %></span>
-      </li>
-
-    </ul>
-    <hr>
-    <div class="col-md-7 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-      <img src="<%= @company.image_url %>" class="img-responsive">
-      <h4><%= @company.about_us_title %></h4>
-      <p><%= @company.about_us_content %></p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" >
+    <h3>Tổng quan công ty</h3>
+    <table class="table">
+      <tr>
+        <td>Tên đầy đủ : </td>
+        <td>Công ty TNHH Thiết kế Xây dựng Miền Đông và Tây Nguyên</td>
+      </tr>
+      <tr>
+        <td>Mã số thuế : </td>
+        <td>0313302383</td>
+      </tr>
+      <tr>
+        <td>Trụ sở chính: </td>
+        <td>Đường 11, phường Trường Thọ, quận Thủ Đức, thành phố Hồ Chí Minh</td>
+      </tr>
+      <tr>
+        <td>Điện thoại    :</td>
+        <td>0979 006 996 - 0932 702 446</td>
+      </tr>
+      <tr>
+        <td>Website :</td>
+        <td>xaydungmiendong.com   Email: miendongtaynguyen@gmail.com</td>
+      </tr>
+    </table>
     </div>
-    <div class="col-md-5 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-      <div class="skill">
-        <h2>Lĩnh vực hoạt động</h2>
-        <% @services.each  do |service|%>
-        <div class="progress-wrap">
-          <h4>- <%= service.name %></h4>
-        </div>
-        <% end %>
-      </div>
+
+    <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" >
+      <h3><%= @company.about_us_title %> </h3>
+      <p><%= @company.about_us_content.html_safe %></p>
     </div>
   </div>
 
-
-  <div class="our-team">
-    <div class="container">
-      <h3><%= t('about.our_team') %></h3>
-      <div class="text-center">
-        <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <img src="images/services/1.jpg" alt="" >
-          <h4>Le Minh Tan</h4>
-          <p>CEO</p>
-        </div>
-      </div>
-    </div>
+  <div class="row">
+    <h3>Tiêu chí hoạt động</h3>
+    <hr/>
   </div>
+  <div class="row">
+    <h3>Sơ đồ tổ chức</h3>
+    <hr/>
+  </div>
+  <div class="row">
+    <h3>Quỹ tình thương Miền Đông  & Tây Nguyên</h3>
+    <hr/>
+  </div>
+</div>
