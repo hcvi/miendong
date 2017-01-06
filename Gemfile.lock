@@ -59,14 +59,10 @@ GEM
       uniform_notifier (~> 1.9.0)
     byebug (5.0.0)
       columnize (= 0.9.0)
-    carrierwave (0.10.0)
-      activemodel (>= 3.2.0)
-      activesupport (>= 3.2.0)
-      json (>= 1.7)
+    carrierwave (1.0.0)
+      activemodel (>= 4.0.0)
+      activesupport (>= 4.0.0)
       mime-types (>= 1.16)
-    carrierwave-dropbox (1.2.1)
-      carrierwave (~> 0.9)
-      dropbox-sdk (~> 1.6)
     code_analyzer (0.4.5)
       sexp_processor
     coderay (1.1.1)
@@ -79,8 +75,6 @@ GEM
     coffee-script-source (1.10.0)
     columnize (0.9.0)
     debug_inspector (0.0.2)
-    dropbox-sdk (1.6.5)
-      json
     erubis (2.7.0)
     exception_notification (4.0.1)
       actionmailer (>= 3.0.4)
@@ -124,6 +118,7 @@ GEM
       actionpack (>= 3.0.0)
     method_source (0.8.2)
     mime-types (2.99.1)
+    mini_magick (4.6.0)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
     multi_json (1.11.2)
@@ -243,8 +238,7 @@ DEPENDENCIES
   breadcrumbs_on_rails
   bullet
   byebug (~> 5.0.0)
-  carrierwave
-  carrierwave-dropbox
+  carrierwave (~> 1.0)
   coffee-rails (~> 4.0.0)
   exception_notification
   exception_notification-rake (~> 0.1.2)
@@ -255,6 +249,7 @@ DEPENDENCIES
   jquery-turbolinks
   kaminari
   meta-tags
+  mini_magick (~> 4.3)
   pry-rails
   quiet_assets
   rails (= 4.2.0)

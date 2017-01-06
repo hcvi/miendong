@@ -3,14 +3,14 @@
 # Table name: blogs
 #
 #  id         :integer          not null, primary key
-#  title      :string(255)
+#  title      :string
 #  body       :text
-#  image_url  :string(255)
+#  image_url  :string
 #  company_id :integer
-#  tags       :string(255)
+#  tags       :string
 #  created_at :datetime
 #  updated_at :datetime
-#  slug       :string(255)
+#  slug       :string
 #
 
 class Blog < ActiveRecord::Base

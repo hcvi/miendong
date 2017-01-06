@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   get 'products/index'
 
   get 'products/:slug' => 'products#show', as: 'product'
@@ -9,6 +10,7 @@ Rails.application.routes.draw do
     resources :contacts
     resources :blogs
     resources :products
+    resources :pictures
   end
 
   get '/contact' => "contact#index", as: 'contact'

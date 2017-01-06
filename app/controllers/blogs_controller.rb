@@ -1,3 +1,18 @@
+# == Schema Information
+#
+# Table name: blogs
+#
+#  id         :integer          not null, primary key
+#  title      :string
+#  body       :text
+#  image_url  :string
+#  company_id :integer
+#  tags       :string
+#  created_at :datetime
+#  updated_at :datetime
+#  slug       :string
+#
+
 class BlogsController < ApplicationController
 
 

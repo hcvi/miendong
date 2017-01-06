@@ -3,17 +3,18 @@
 # Table name: products
 #
 #  id                  :integer          not null, primary key
-#  name                :string(255)
+#  name                :string
 #  description         :text
 #  company_id          :integer
 #  service_id          :integer
-#  service_name        :string(255)
+#  service_name        :string
 #  created_at          :datetime
 #  updated_at          :datetime
 #  image_url           :string(2083)
 #  summary_description :text
 #  status              :integer
-#  slug                :string(255)
+#  slug                :string
+#  main_product        :boolean
 #
 
 class Product < ActiveRecord::Base

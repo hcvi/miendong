@@ -1,3 +1,22 @@
+# == Schema Information
+#
+# Table name: products
+#
+#  id                  :integer          not null, primary key
+#  name                :string
+#  description         :text
+#  company_id          :integer
+#  service_id          :integer
+#  service_name        :string
+#  created_at          :datetime
+#  updated_at          :datetime
+#  image_url           :string(2083)
+#  summary_description :text
+#  status              :integer
+#  slug                :string
+#  main_product        :boolean
+#
+
 class ProductsController < ApplicationController
 
   def index
