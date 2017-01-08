@@ -29,7 +29,7 @@
       <% @pictures.each do |pic| %>
         <tr id="picture-<%= pic.id %>">
           <td><%= pic.name %></td>
-          <td><%= image_url pic.image.small.url %></td>
+          <td><%= image_tag pic.image.small.url %></td>
           <td>
             <button onclick="copyToClipboard('<%= pic.image.small.url %>')" >small</button>
             <button onclick="copyToClipboard('<%=  pic.image.thumb.url %>')">thumb</button>
