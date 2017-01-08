@@ -15,6 +15,8 @@
 #  status              :integer
 #  slug                :string
 #  main_product        :boolean
+#  product_type_id     :integer
+#  image_thumb         :string
 #
 
 class ProductsController < ApplicationController
@@ -22,11 +24,9 @@ class ProductsController < ApplicationController
   def index
     add_breadcrumb I18n.t('menu.home') , :root_path
     breadcrumb_products(params[:status])
-    if params[:status].present?
-      @products = Product.where(status: Product.statuses[params[:status]])
-    else
-      @products = Product.all
-    end
+    @products_working = Product.working.normal
+    @products_completed = Product.completed.normal
+
   end
 
   def show

@@ -15,13 +15,18 @@
 #  status              :integer
 #  slug                :string
 #  main_product        :boolean
+#  product_type_id     :integer
+#  image_thumb         :string
 #
 
 class Product < ActiveRecord::Base
-  enum status: [ :working, :completed, :pending ]
+  enum status: [ :working, :completed]
   belongs_to :company
-  belongs_to :service
+  belongs_to :product_type
   has_many :images
+
+  scope :design, -> { where(product_type_id: ProductType.find_by(name: 'Thiết kế').id) }
+  scope :normal, -> { where(product_type_id: ProductType.find_by(name: 'Thi công').id) }
 
   translates :name, :description, :summary_description
 

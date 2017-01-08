@@ -10,7 +10,7 @@
         font-size: 42px
         color: red
       .text-logo
-        font-size: 16px
+        font-size: 12px
         font-weight: 500
 
   .box-address, .box-phone, .box-open-time
@@ -24,8 +24,12 @@
         display: inline-block
         font-weight: bold
         font-weight: 500
-      &.ward, &.email, &.hour
+      &.ward
         display: block
+        padding-left: 25px
+      &.email, &.hour
+        display: block
+        padding-left: 34px
 
 .navbar-brand
   i
@@ -33,6 +37,12 @@
     color: red
   span
     font-weight: 500
+
+.navbar-right
+  a
+    font-weight: bold
+  &.active
+    pointer-events:none
 
 
 

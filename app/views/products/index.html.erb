@@ -1,9 +1,12 @@
 <div class="container">
-    <h3>Dang thi cong</h3>
+    <h3>Đang thi công</h3>
     <hr/>
     <div id="products" class="row list-group">
-    <%= render partial: 'product', collection: @products, as: :product %>
+      <%= render partial: 'product', collection: @products_working, as: :product %>
     </div>
-     <h3>Hoan thanh</h3>
+    <h3>Hoàn thành</h3>
     <hr/>
+    <div id="products" class="row list-group">
+      <%= render partial: 'product', collection: @products_completed, as: :product %>
+    </div>
 </div>

@@ -1,4 +1,4 @@
-class Admin::BlogsController < ApplicationController
+class Admin::BlogsController < AdminController
   before_action :find_model, only: [:update, :edit, :destroy]
 
   def index

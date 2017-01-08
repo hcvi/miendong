@@ -1,4 +1,4 @@
-class Admin::CompaniesController < ApplicationController
+class Admin::CompaniesController < AdminController
   before_filter :find_model , only: [:update]
 
   def index

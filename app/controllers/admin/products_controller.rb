@@ -1,17 +1,18 @@
-class Admin::ProductsController < ApplicationController
+class Admin::ProductsController < AdminController
   before_action :find_model, only: [:update, :edit, :destroy]
   before_action :services, only: [:index, :edit]
 
   def index
-    @company = Company.first
-    @product = Product.new(company_id: @company.id)
+    company = Company.first
+    @product = Product.new(company_id: company.id)
     1.times { @product.images.build }
     @products = Product.all.order('id DESC')
-
+    @product_typies = ProductType.all
   end
 
   def edit
     @product.images.build if @product.images.blank?
+    @product_typies = ProductType.all
   end
 
   def update
@@ -41,9 +42,10 @@ class Admin::ProductsController < ApplicationController
         :description,
         :summary_description,
         :image_url,
+        :image_thumb,
         :status,
         :company_id,
-        :service_id,
+        :product_type_id,
         :main_product,
         images_attributes: [:_destroy, :id, :title, :url, :url_thumb, :position]
       )

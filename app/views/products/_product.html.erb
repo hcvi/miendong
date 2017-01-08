@@ -1,7 +1,7 @@
 <div class="item col-md-4">
   <div class="thumbnail">
     <%= link_to product_path(product.slug) do %>
-      <%= image_tag product.image_url, class: 'group list-group-image' %>
+      <%= image_tag product.image_thumb, class: 'group list-group-image' %>
     <% end %>
       <div class="caption">
           <h4 class="group inner list-group-item-heading"><%= link_to product.name, product_path(product.slug) %></h4>

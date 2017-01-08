@@ -1,4 +1,4 @@
-class Admin::ServicesController < ApplicationController
+class Admin::ServicesController < AdminController
   before_filter :find_model , only: [:update, :edit, :destroy]
 
   def index

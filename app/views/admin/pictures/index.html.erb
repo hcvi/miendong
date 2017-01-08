@@ -22,19 +22,28 @@
       <tr>
         <th>Name</th>
         <th>Image</th>
+        <th>Copy</th>
         <th>Action</th>
       </tr>
 
       <% @pictures.each do |pic| %>
-        <tr>
+        <tr id="picture-<%= pic.id %>">
           <td><%= pic.name %></td>
-          <td><%= image_tag pic.image.small.url %></td>
+          <td><%= image_url pic.image.small.url %></td>
           <td>
-            <button onclick="copyToClipboard('<%= pic.image.small.url %>')" >Copy small</button>
-            <button onclick="copyToClipboard('<%= pic.image.thumb.url %>')">Copy thumb</button>
-            <button onclick="copyToClipboard('<%= pic.image.url %>')">Copy large</button>
+            <button onclick="copyToClipboard('<%= pic.image.small.url %>')" >small</button>
+            <button onclick="copyToClipboard('<%=  pic.image.thumb.url %>')">thumb</button>
+            <button onclick="copyToClipboard('<%= pic.image.large.url %>')">large</button>
+            <button onclick="copyToClipboard('<%= pic.image.url %>')">full-width</button>
+          </td>
+          <td>
+            <%= link_to 'Delete', admin_picture_path(pic.id), method: :delete,
+                remote: true,
+                class: 'btn btn-danger',
+                data: {confirm: "Are you sure?"} %>
           </td>
         </tr>
+
       <% end %>
     </table>
     </div>

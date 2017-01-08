@@ -30,11 +30,11 @@
     <%= f.input :company_id, as: :hidden %>
     <%= f.input :name %>
     <%= f.input :summary_description,  :input_html => { :class => 'autogrow', :rows => 5, :cols => 20} %>
-    <%= f.input :description,  :input_html => { :class => 'autogrow', :rows => 10, :cols => 20} %>
     <%= f.input :image_url %>
+    <%= f.input :image_thumb %>
     <%= f.input :status, as: :select, collection: options_for_select(Product.statuses.keys, f.object.status.to_s) %>
     <%= f.input :main_product %>
-    <%= f.input :service_id, as: :select, collection: @services_collections %>
+    <%= f.input :product_type_id, as: :select, collection: @product_typies %>
   <% end %>
 
   <%= f.actions do %>
@@ -42,3 +42,16 @@
     <%= f.action :cancel, :as => :link %>
   <% end %>
 <% end %>
+ <script>
+    // Replace the <textarea id="editor1"> with a CKEditor
+    // instance, using default configuration.xc
+    CKEDITOR.editorConfig = function( config ){
+          // Define changes to default configuration here. For example:
+          // config.language = 'fr';
+          // config.uiColor = '#AADC6E';
+          config.height = '800px';
+      };
+    CKEDITOR.replace('product_summary_description',{
+      height: '100px'
+    });
+</script>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170105155517) do
+ActiveRecord::Schema.define(version: 20170108032702) do
 
   create_table "blogs", force: :cascade do |t|
     t.string   "title"
@@ -124,6 +124,12 @@ ActiveRecord::Schema.define(version: 20170105155517) do
   add_index "product_translations", ["locale"], name: "index_product_translations_on_locale"
   add_index "product_translations", ["product_id"], name: "index_product_translations_on_product_id"
 
+  create_table "product_types", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "products", force: :cascade do |t|
     t.string   "name"
     t.text     "description"
@@ -137,6 +143,8 @@ ActiveRecord::Schema.define(version: 20170105155517) do
     t.integer  "status"
     t.string   "slug"
     t.boolean  "main_product"
+    t.integer  "product_type_id"
+    t.string   "image_thumb"
   end
 
   create_table "service_translations", force: :cascade do |t|
